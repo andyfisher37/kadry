@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vakDataSet" targetNamespace="http://www.tempuri.org/vakDataSet.xsd" xmlns:mstns="http://www.tempuri.org/vakDataSet.xsd" xmlns="http://www.tempuri.org/vakDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vakDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU" msprop:Generator_UserDSName="vakDataSet" msprop:Generator_DataSetName="vakDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="podrazdel" msprop:Generator_UserColumnName="podrazdel" msprop:Generator_ColumnVarNameInTable="columnpodrazdel" msprop:Generator_ColumnPropNameInRow="podrazdel" msprop:Generator_ColumnPropNameInTable="podrazdelColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nam_of_dol" msprop:Generator_UserColumnName="nam_of_dol" msprop:Generator_ColumnVarNameInTable="columnnam_of_dol" msprop:Generator_ColumnPropNameInRow="nam_of_dol" msprop:Generator_ColumnPropNameInTable="nam_of_dolColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nam_of_slu" msprop:Generator_UserColumnName="nam_of_slu" msprop:Generator_ColumnVarNameInTable="columnnam_of_slu" msprop:Generator_ColumnPropNameInRow="nam_of_slu" msprop:Generator_ColumnPropNameInTable="nam_of_sluColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="oklad_ot" msprop:Generator_UserColumnName="oklad_ot" msprop:Generator_ColumnVarNameInTable="columnoklad_ot" msprop:Generator_ColumnPropNameInRow="oklad_ot" msprop:Generator_ColumnPropNameInTable="oklad_otColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="oklad_do" msprop:Generator_UserColumnName="oklad_do" msprop:Generator_ColumnVarNameInTable="columnoklad_do" msprop:Generator_ColumnPropNameInRow="oklad_do" msprop:Generator_ColumnPropNameInTable="oklad_doColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="data_vak" msprop:Generator_UserColumnName="data_vak" msprop:Generator_ColumnVarNameInTable="columndata_vak" msprop:Generator_ColumnPropNameInRow="data_vak" msprop:Generator_ColumnPropNameInTable="data_vakColumn" type="xs:date" minOccurs="0" />
+              <xs:element name="voin_zvan" msprop:Generator_UserColumnName="voin_zvan" msprop:Generator_ColumnVarNameInTable="columnvoin_zvan" msprop:Generator_ColumnPropNameInRow="voin_zvan" msprop:Generator_ColumnPropNameInTable="voin_zvanColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="podrazd" msprop:Generator_UserColumnName="podrazd" msprop:Generator_ColumnVarNameInTable="columnpodrazd" msprop:Generator_ColumnPropNameInRow="podrazd" msprop:Generator_ColumnPropNameInTable="podrazdColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="podr" msprop:Generator_UserColumnName="podr" msprop:Generator_ColumnVarNameInTable="columnpodr" msprop:Generator_ColumnPropNameInRow="podr" msprop:Generator_ColumnPropNameInTable="podrColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="upravlenie" msprop:Generator_UserColumnName="upravlenie" msprop:Generator_ColumnVarNameInTable="columnupravlenie" msprop:Generator_ColumnPropNameInRow="upravlenie" msprop:Generator_ColumnPropNameInTable="upravlenieColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="otdel" msprop:Generator_UserColumnName="otdel" msprop:Generator_ColumnVarNameInTable="columnotdel" msprop:Generator_ColumnPropNameInRow="otdel" msprop:Generator_ColumnPropNameInTable="otdelColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="podotdel" msprop:Generator_UserColumnName="podotdel" msprop:Generator_ColumnVarNameInTable="columnpodotdel" msprop:Generator_ColumnPropNameInRow="podotdel" msprop:Generator_ColumnPropNameInTable="podotdelColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="otdelenie" msprop:Generator_UserColumnName="otdelenie" msprop:Generator_ColumnVarNameInTable="columnotdelenie" msprop:Generator_ColumnPropNameInRow="otdelenie" msprop:Generator_ColumnPropNameInTable="otdelenieColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="grup" msprop:Generator_UserColumnName="grup" msprop:Generator_ColumnVarNameInTable="columngrup" msprop:Generator_ColumnPropNameInRow="grup" msprop:Generator_ColumnPropNameInTable="grupColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="dolznost" msprop:Generator_UserColumnName="dolznost" msprop:Generator_ColumnVarNameInTable="columndolznost" msprop:Generator_ColumnPropNameInRow="dolznost" msprop:Generator_ColumnPropNameInTable="dolznostColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="N1" msprop:Generator_UserColumnName="N1" msprop:Generator_ColumnVarNameInTable="columnN1" msprop:Generator_ColumnPropNameInRow="N1" msprop:Generator_ColumnPropNameInTable="N1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="N2" msprop:Generator_UserColumnName="N2" msprop:Generator_ColumnVarNameInTable="columnN2" msprop:Generator_ColumnPropNameInRow="N2" msprop:Generator_ColumnPropNameInTable="N2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="N3" msprop:Generator_UserColumnName="N3" msprop:Generator_ColumnVarNameInTable="columnN3" msprop:Generator_ColumnPropNameInRow="N3" msprop:Generator_ColumnPropNameInTable="N3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="N4" msprop:Generator_UserColumnName="N4" msprop:Generator_ColumnVarNameInTable="columnN4" msprop:Generator_ColumnPropNameInRow="N4" msprop:Generator_ColumnPropNameInTable="N4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="N5" msprop:Generator_UserColumnName="N5" msprop:Generator_ColumnVarNameInTable="columnN5" msprop:Generator_ColumnPropNameInRow="N5" msprop:Generator_ColumnPropNameInTable="N5Column" type="xs:string" minOccurs="0" />
+              <xs:element name="N6" msprop:Generator_UserColumnName="N6" msprop:Generator_ColumnVarNameInTable="columnN6" msprop:Generator_ColumnPropNameInRow="N6" msprop:Generator_ColumnPropNameInTable="N6Column" type="xs:string" minOccurs="0" />
+              <xs:element name="text" msprop:Generator_UserColumnName="text" msprop:Generator_ColumnVarNameInTable="columntext" msprop:Generator_ColumnPropNameInRow="text" msprop:Generator_ColumnPropNameInTable="textColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

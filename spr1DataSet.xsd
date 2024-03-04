@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="spr1DataSet" targetNamespace="http://www.tempuri.org/spr1DataSet.xsd" xmlns:mstns="http://www.tempuri.org/spr1DataSet.xsd" xmlns="http://www.tempuri.org/spr1DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="spr1DataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATA_OT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NOM_PRIK" type="xs:string" minOccurs="0" />
+              <xs:element name="P3" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_PRIK" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="sokrDataSet" targetNamespace="http://www.tempuri.org/sokrDataSet.xsd" xmlns:mstns="http://www.tempuri.org/sokrDataSet.xsd" xmlns="http://www.tempuri.org/sokrDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="sokrDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU" msprop:Generator_UserDSName="sokrDataSet" msprop:Generator_DataSetName="sokrDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TablePropName="Table" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FAMILIYA" msprop:Generator_UserColumnName="FAMILIYA" msprop:Generator_ColumnPropNameInRow="FAMILIYA" msprop:Generator_ColumnVarNameInTable="columnFAMILIYA" msprop:Generator_ColumnPropNameInTable="FAMILIYAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IMYA" msprop:Generator_UserColumnName="IMYA" msprop:Generator_ColumnPropNameInRow="IMYA" msprop:Generator_ColumnVarNameInTable="columnIMYA" msprop:Generator_ColumnPropNameInTable="IMYAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OTCHECTVO" msprop:Generator_UserColumnName="OTCHECTVO" msprop:Generator_ColumnPropNameInRow="OTCHECTVO" msprop:Generator_ColumnVarNameInTable="columnOTCHECTVO" msprop:Generator_ColumnPropNameInTable="OTCHECTVOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="KEY_1" msprop:Generator_UserColumnName="KEY_1" msprop:Generator_ColumnPropNameInRow="KEY_1" msprop:Generator_ColumnVarNameInTable="columnKEY_1" msprop:Generator_ColumnPropNameInTable="KEY_1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="DATA_SOKR" msprop:Generator_UserColumnName="DATA_SOKR" msprop:Generator_ColumnPropNameInRow="DATA_SOKR" msprop:Generator_ColumnVarNameInTable="columnDATA_SOKR" msprop:Generator_ColumnPropNameInTable="DATA_SOKRColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PODRAZDEL" msprop:Generator_UserColumnName="PODRAZDEL" msprop:Generator_ColumnPropNameInRow="PODRAZDEL" msprop:Generator_ColumnVarNameInTable="columnPODRAZDEL" msprop:Generator_ColumnPropNameInTable="PODRAZDELColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UPRAVLENIE" msprop:Generator_UserColumnName="UPRAVLENIE" msprop:Generator_ColumnPropNameInRow="UPRAVLENIE" msprop:Generator_ColumnVarNameInTable="columnUPRAVLENIE" msprop:Generator_ColumnPropNameInTable="UPRAVLENIEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OTDEL" msprop:Generator_UserColumnName="OTDEL" msprop:Generator_ColumnPropNameInRow="OTDEL" msprop:Generator_ColumnVarNameInTable="columnOTDEL" msprop:Generator_ColumnPropNameInTable="OTDELColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PODOTDEL" msprop:Generator_UserColumnName="PODOTDEL" msprop:Generator_ColumnPropNameInRow="PODOTDEL" msprop:Generator_ColumnVarNameInTable="columnPODOTDEL" msprop:Generator_ColumnPropNameInTable="PODOTDELColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OTDELENIE" msprop:Generator_UserColumnName="OTDELENIE" msprop:Generator_ColumnPropNameInRow="OTDELENIE" msprop:Generator_ColumnVarNameInTable="columnOTDELENIE" msprop:Generator_ColumnPropNameInTable="OTDELENIEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GRUP" msprop:Generator_UserColumnName="GRUP" msprop:Generator_ColumnPropNameInRow="GRUP" msprop:Generator_ColumnVarNameInTable="columnGRUP" msprop:Generator_ColumnPropNameInTable="GRUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PODCH" msprop:Generator_UserColumnName="PODCH" msprop:Generator_ColumnPropNameInRow="PODCH" msprop:Generator_ColumnVarNameInTable="columnPODCH" msprop:Generator_ColumnPropNameInTable="PODCHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NAM_OF_SLU" msprop:Generator_UserColumnName="NAM_OF_SLU" msprop:Generator_ColumnPropNameInRow="NAM_OF_SLU" msprop:Generator_ColumnVarNameInTable="columnNAM_OF_SLU" msprop:Generator_ColumnPropNameInTable="NAM_OF_SLUColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="REALDOLZNOST" msprop:Generator_UserColumnName="REALDOLZNOST" msprop:Generator_ColumnPropNameInRow="REALDOLZNOST" msprop:Generator_ColumnVarNameInTable="columnREALDOLZNOST" msprop:Generator_ColumnPropNameInTable="REALDOLZNOSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOLZNOST" msprop:Generator_UserColumnName="DOLZNOST" msprop:Generator_ColumnPropNameInRow="DOLZNOST" msprop:Generator_ColumnVarNameInTable="columnDOLZNOST" msprop:Generator_ColumnPropNameInTable="DOLZNOSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VOIN_ZVAN" msprop:Generator_UserColumnName="VOIN_ZVAN" msprop:Generator_ColumnPropNameInRow="VOIN_ZVAN" msprop:Generator_ColumnVarNameInTable="columnVOIN_ZVAN" msprop:Generator_ColumnPropNameInTable="VOIN_ZVANColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TEXT" msprop:Generator_UserColumnName="TEXT" msprop:Generator_ColumnPropNameInRow="TEXT" msprop:Generator_ColumnVarNameInTable="columnTEXT" msprop:Generator_ColumnPropNameInTable="TEXTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STAVKA_PRS" msprop:Generator_UserColumnName="STAVKA_PRS" msprop:Generator_ColumnPropNameInRow="STAVKA_PRS" msprop:Generator_ColumnVarNameInTable="columnSTAVKA_PRS" msprop:Generator_ColumnPropNameInTable="STAVKA_PRSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="NOMPRSOKDO" msprop:Generator_UserColumnName="NOMPRSOKDO" msprop:Generator_ColumnPropNameInRow="NOMPRSOKDO" msprop:Generator_ColumnVarNameInTable="columnNOMPRSOKDO" msprop:Generator_ColumnPropNameInTable="NOMPRSOKDOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_ROZD" msprop:Generator_UserColumnName="DATA_ROZD" msprop:Generator_ColumnPropNameInRow="DATA_ROZD" msprop:Generator_ColumnVarNameInTable="columnDATA_ROZD" msprop:Generator_ColumnPropNameInTable="DATA_ROZDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OBRAZ_LIC2" msprop:Generator_UserColumnName="OBRAZ_LIC2" msprop:Generator_ColumnPropNameInRow="OBRAZ_LIC2" msprop:Generator_ColumnVarNameInTable="columnOBRAZ_LIC2" msprop:Generator_ColumnPropNameInTable="OBRAZ_LIC2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_POST" msprop:Generator_UserColumnName="DATA_POST" msprop:Generator_ColumnPropNameInRow="DATA_POST" msprop:Generator_ColumnVarNameInTable="columnDATA_POST" msprop:Generator_ColumnPropNameInTable="DATA_POSTColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

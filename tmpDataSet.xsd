@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="tmpDataSet" targetNamespace="http://www.tempuri.org/tmpDataSet.xsd" xmlns:mstns="http://www.tempuri.org/tmpDataSet.xsd"
+	xmlns="http://www.tempuri.org/tmpDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="tmpDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PODRAZD" type="xs:short" minOccurs="0" />
+							<xs:element name="SLUZBA" type="xs:short" minOccurs="0" />
+							<xs:element name="UPRAVLENIE" type="xs:double" minOccurs="0" />
+							<xs:element name="OTDEL" type="xs:double" minOccurs="0" />
+							<xs:element name="PODOTDEL" type="xs:double" minOccurs="0" />
+							<xs:element name="OTDELENIE" type="xs:double" minOccurs="0" />
+							<xs:element name="GRUP" type="xs:double" minOccurs="0" />
+							<xs:element name="DOLZNOST" type="xs:string" minOccurs="0" />
+							<xs:element name="PODR" type="xs:double" minOccurs="0" />
+							<xs:element name="OBRAZ_DOL1" type="xs:string" minOccurs="0" />
+							<xs:element name="OBRAZ_DOL2" type="xs:string" minOccurs="0" />
+							<xs:element name="KOD_OBRAZ" type="xs:string" minOccurs="0" />
+							<xs:element name="POTOLOK" type="xs:short" minOccurs="0" />
+							<xs:element name="OKLAD_OT" type="xs:string" minOccurs="0" />
+							<xs:element name="OKLAD_DO" type="xs:string" minOccurs="0" />
+							<xs:element name="N_PR_DOLZ" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_DOLZ" type="xs:date" minOccurs="0" />
+							<xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+							<xs:element name="IMYA" type="xs:string" minOccurs="0" />
+							<xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_ROZD" type="xs:date" minOccurs="0" />
+							<xs:element name="NACIONALN" type="xs:short" minOccurs="0" />
+							<xs:element name="M_ROZ" type="xs:double" minOccurs="0" />
+							<xs:element name="ZVANIE" type="xs:short" minOccurs="0" />
+							<xs:element name="DATA_PRSV" type="xs:date" minOccurs="0" />
+							<xs:element name="OKLAD" type="xs:string" minOccurs="0" />
+							<xs:element name="OBRAZ_LIC1" type="xs:string" minOccurs="0" />
+							<xs:element name="OBRAZ_LIC2" type="xs:string" minOccurs="0" />
+							<xs:element name="OBRAZ_LIC3" type="xs:string" minOccurs="0" />
+							<xs:element name="PRIMECHAN" type="xs:string" minOccurs="0" />
+							<xs:element name="DAT_OKUZ" type="xs:string" minOccurs="0" />
+							<xs:element name="KVAL" type="xs:boolean" minOccurs="0" />
+							<xs:element name="UCHEBA" type="xs:boolean" minOccurs="0" />
+							<xs:element name="END_CONTR" type="xs:date" minOccurs="0" />
+							<xs:element name="UCHZAV" type="xs:string" minOccurs="0" />
+							<xs:element name="GDE_UCH" type="xs:string" minOccurs="0" />
+							<xs:element name="POSL_KURS" type="xs:boolean" minOccurs="0" />
+							<xs:element name="KURS" type="xs:short" minOccurs="0" />
+							<xs:element name="REAL_DOLZN" type="xs:string" minOccurs="0" />
+							<xs:element name="SLVARM_OT" type="xs:date" minOccurs="0" />
+							<xs:element name="SLVARM_DO" type="xs:date" minOccurs="0" />
+							<xs:element name="DATA_POST" type="xs:date" minOccurs="0" />
+							<xs:element name="SL_RANE_OT" type="xs:date" minOccurs="0" />
+							<xs:element name="SL_RANE_DO" type="xs:date" minOccurs="0" />
+							<xs:element name="DATA_VDOLZ" type="xs:date" minOccurs="0" />
+							<xs:element name="N_PR_VDOLZ" type="xs:string" minOccurs="0" />
+							<xs:element name="VREMI_V_SL" type="xs:date" minOccurs="0" />
+							<xs:element name="VREM_RUKOV" type="xs:date" minOccurs="0" />
+							<xs:element name="VAKANSIYA" type="xs:boolean" minOccurs="0" />
+							<xs:element name="NOMLICHDEL" type="xs:double" minOccurs="0" />
+							<xs:element name="NOMPRSOKDO" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_SOKR" type="xs:date" minOccurs="0" />
+							<xs:element name="NOM_UDOST" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_UDOST" type="xs:date" minOccurs="0" />
+							<xs:element name="NOM_UD_PRE" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_PR_ZV" type="xs:date" minOccurs="0" />
+							<xs:element name="YD_UTERINO" type="xs:boolean" minOccurs="0" />
+							<xs:element name="LICH_NOM_1" type="xs:string" minOccurs="0" />
+							<xs:element name="LICH_NOM_2" type="xs:string" minOccurs="0" />
+							<xs:element name="KEY_1" type="xs:double" minOccurs="0" />
+							<xs:element name="KEY_2" type="xs:double" minOccurs="0" />
+							<xs:element name="DATA_VAK" type="xs:date" minOccurs="0" />
+							<xs:element name="N_PR_ZVAN1" type="xs:string" minOccurs="0" />
+							<xs:element name="N_PR_ZVAN2" type="xs:string" minOccurs="0" />
+							<xs:element name="N_PR_DOLZ1" type="xs:string" minOccurs="0" />
+							<xs:element name="IST_SOD" type="xs:short" minOccurs="0" />
+							<xs:element name="PERPOD_OT" type="xs:date" minOccurs="0" />
+							<xs:element name="PERPOD_DO" type="xs:date" minOccurs="0" />
+							<xs:element name="DT_PR_DOLZ" type="xs:date" minOccurs="0" />
+							<xs:element name="DAKTO_KARD" type="xs:boolean" minOccurs="0" />
+							<xs:element name="DATE_FROM" type="xs:date" minOccurs="0" />
+							<xs:element name="DATE_TO" type="xs:date" minOccurs="0" />
+							<xs:element name="FIRM_DOLZN" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_OT" type="xs:date" minOccurs="0" />
+							<xs:element name="N_PRIK_SN" type="xs:string" minOccurs="0" />
+							<xs:element name="P1" type="xs:string" minOccurs="0" />
+							<xs:element name="WHO_SNIAL" type="xs:string" minOccurs="0" />
+							<xs:element name="FIRMA" type="xs:string" minOccurs="0" />
+							<xs:element name="ADRESSFIRM" type="xs:string" minOccurs="0" />
+							<xs:element name="OSNOVAN" type="xs:string" minOccurs="0" />
+							<xs:element name="NUM_PRIK" type="xs:string" minOccurs="0" />
+							<xs:element name="PRIK_DATE" type="xs:date" minOccurs="0" />
+							<xs:element name="ARMY_BEGIN" type="xs:date" minOccurs="0" />
+							<xs:element name="ARMY_STOP" type="xs:date" minOccurs="0" />
+							<xs:element name="SOSTAV" type="xs:int" minOccurs="0" />
+							<xs:element name="VUS" type="xs:string" minOccurs="0" />
+							<xs:element name="WAR" type="xs:boolean" minOccurs="0" />
+							<xs:element name="GODEN" type="xs:string" minOccurs="0" />
+							<xs:element name="VOENKOMAT" type="xs:string" minOccurs="0" />
+							<xs:element name="VBILET" type="xs:string" minOccurs="0" />
+							<xs:element name="BILET_DATE" type="xs:date" minOccurs="0" />
+							<xs:element name="BILET_RVK" type="xs:string" minOccurs="0" />
+							<xs:element name="n_upr" type="xs:string" minOccurs="0" />
+							<xs:element name="n_otdel" type="xs:string" minOccurs="0" />
+							<xs:element name="n_podotdel" type="xs:string" minOccurs="0" />
+							<xs:element name="n_otdelenie" type="xs:string" minOccurs="0" />
+							<xs:element name="n_grup" type="xs:string" minOccurs="0" />
+							<xs:element name="n_podch" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="strDataSet" targetNamespace="http://www.tempuri.org/strDataSet.xsd" xmlns:mstns="http://www.tempuri.org/strDataSet.xsd"
+	xmlns="http://www.tempuri.org/strDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="strDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PODRAZD" type="xs:short" minOccurs="0" />
+							<xs:element name="PODR" type="xs:double" minOccurs="0" />
+							<xs:element name="UPRAVLENIE" type="xs:double" minOccurs="0" />
+							<xs:element name="OTDEL" type="xs:double" minOccurs="0" />
+							<xs:element name="PODOTDEL" type="xs:double" minOccurs="0" />
+							<xs:element name="OTDELENIE" type="xs:double" minOccurs="0" />
+							<xs:element name="GRUP" type="xs:double" minOccurs="0" />
+							<xs:element name="PODRAZDEL" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_SOKR" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="STAVKA_DLZ" type="xs:double" minOccurs="0" />
+							<xs:element name="VOIN_ZVAN" type="xs:string" minOccurs="0" />
+							<xs:element name="NAM_OF_DOL" type="xs:string" minOccurs="0" />
+							<xs:element name="n_upravlenie" type="xs:string" minOccurs="0" />
+							<xs:element name="n_otdel" type="xs:string" minOccurs="0" />
+							<xs:element name="n_podotdel" type="xs:string" minOccurs="0" />
+							<xs:element name="n_otdelenie" type="xs:string" minOccurs="0" />
+							<xs:element name="n_grup" type="xs:string" minOccurs="0" />
+							<xs:element name="n_podr" type="xs:string" minOccurs="0" />
+							<xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+							<xs:element name="IMYA" type="xs:string" minOccurs="0" />
+							<xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_ROZD" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ISTOCHNIK" type="xs:string" minOccurs="0" />
+							<xs:element name="LICH_NOM_1" type="xs:string" minOccurs="0" />
+							<xs:element name="LICH_NOM_2" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_VAK" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="KEY_1" type="xs:double" minOccurs="0" />
+							<xs:element name="REALDOL" type="xs:string" minOccurs="0" />
+							<xs:element name="OKLAD_OT" type="xs:string" minOccurs="0" />
+							<xs:element name="OKLAD_DO" type="xs:string" minOccurs="0" />
+							<xs:element name="OKLAD" type="xs:string" minOccurs="0" />
+							<xs:element name="DOLZNOST" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

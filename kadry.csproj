@@ -1,0 +1,1502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{844E068F-110B-4D54-9810-76CB832C0885}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kadry</RootNamespace>
+    <AssemblyName>kadry</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="eWorld.UI, Version=2.0.6.2393, Culture=neutral, PublicKeyToken=24d65337282035f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\eWorld.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Obout.Ajax.UI, Version=2.13.507.1, Culture=neutral, PublicKeyToken=24f3c5cea456f322, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Obout.Ajax.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_ASPTreeView_2_NET, Version=2.0.41.0, Culture=neutral, PublicKeyToken=6fd96a95fc486c7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\obout_ASPTreeView_2_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Calendar2_Net, Version=3.0.4.0, Culture=neutral, PublicKeyToken=b114d8766feff9ce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Controls\obout Suite for ASP.NET 3.5 and up\obout_Calendar2_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Interface, Version=4.0.10.0, Culture=neutral, PublicKeyToken=d5dff6913a9d6649, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\obout_Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Show_Net, Version=1.5.2.0, Culture=neutral, PublicKeyToken=a24f0e4ecff66e91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\obout_Show_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_TwoColorsMenu, Version=3.7.9.0, Culture=neutral, PublicKeyToken=230fff0683fbecad, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\obout_TwoColorsMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About\about.aspx" />
+    <Content Include="About\b_1.gif" />
+    <Content Include="About\b_2.gif" />
+    <Content Include="About\b_3.gif" />
+    <Content Include="About\b_4.gif" />
+    <Content Include="About\cabinets.htm" />
+    <Content Include="About\gurscript.gif" />
+    <Content Include="About\guru.gif" />
+    <Content Include="About\hystory.files\filelist.xml" />
+    <Content Include="About\hystory.files\image001.gif" />
+    <Content Include="About\hystory.files\image002.gif" />
+    <Content Include="About\hystory.files\image003.jpg" />
+    <Content Include="About\hystory.files\image004.gif" />
+    <Content Include="About\hystory.files\image005.gif" />
+    <Content Include="About\hystory.files\_vti_cnf\filelist.xml" />
+    <Content Include="About\hystory.files\_vti_cnf\image001.gif" />
+    <Content Include="About\hystory.files\_vti_cnf\image002.gif" />
+    <Content Include="About\hystory.files\_vti_cnf\image003.jpg" />
+    <Content Include="About\hystory.files\_vti_cnf\image004.gif" />
+    <Content Include="About\hystory.files\_vti_cnf\image005.gif" />
+    <Content Include="About\hystory.files\_vti_cnf\image006.gif" />
+    <Content Include="About\hystory.htm" />
+    <Content Include="About\images\hex0.gif" />
+    <Content Include="About\images\hex1.gif" />
+    <Content Include="About\images\hex10.gif" />
+    <Content Include="About\images\hex11.gif" />
+    <Content Include="About\images\hex12.gif" />
+    <Content Include="About\images\hex13.gif" />
+    <Content Include="About\images\hex14.gif" />
+    <Content Include="About\images\hex15.gif" />
+    <Content Include="About\images\hex16.gif" />
+    <Content Include="About\images\hex2.gif" />
+    <Content Include="About\images\hex3.gif" />
+    <Content Include="About\images\hex4.gif" />
+    <Content Include="About\images\hex5.gif" />
+    <Content Include="About\images\hex6.gif" />
+    <Content Include="About\images\hex7.gif" />
+    <Content Include="About\images\hex8.gif" />
+    <Content Include="About\images\hex9.gif" />
+    <Content Include="About\images\_vti_cnf\hex0.gif" />
+    <Content Include="About\images\_vti_cnf\hex1.gif" />
+    <Content Include="About\images\_vti_cnf\hex10.gif" />
+    <Content Include="About\images\_vti_cnf\hex11.gif" />
+    <Content Include="About\images\_vti_cnf\hex12.gif" />
+    <Content Include="About\images\_vti_cnf\hex13.gif" />
+    <Content Include="About\images\_vti_cnf\hex14.gif" />
+    <Content Include="About\images\_vti_cnf\hex15.gif" />
+    <Content Include="About\images\_vti_cnf\hex16.gif" />
+    <Content Include="About\images\_vti_cnf\hex2.gif" />
+    <Content Include="About\images\_vti_cnf\hex3.gif" />
+    <Content Include="About\images\_vti_cnf\hex4.gif" />
+    <Content Include="About\images\_vti_cnf\hex5.gif" />
+    <Content Include="About\images\_vti_cnf\hex6.gif" />
+    <Content Include="About\images\_vti_cnf\hex7.gif" />
+    <Content Include="About\images\_vti_cnf\hex8.gif" />
+    <Content Include="About\images\_vti_cnf\hex9.gif" />
+    <Content Include="About\smart_panel.swf" />
+    <Content Include="About\sostav.aspx" />
+    <Content Include="About\viewukpeople.aspx" />
+    <Content Include="AccessDenied.htm" />
+    <Content Include="AdditionalServices.aspx" />
+    <Content Include="AddService.aspx" />
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Attestation\AddAttestation.aspx" />
+    <Content Include="Attestation\Attestation.aspx" />
+    <Content Include="Attestation\DeleteAttestation.aspx" />
+    <Content Include="Attestation\EditAttestation.aspx" />
+    <Content Include="Attestation\MainAttestation.aspx" />
+    <Content Include="BadNet.htm" />
+    <Content Include="BornToday\borntoday.aspx" />
+    <Content Include="Contracts\Contract.aspx" />
+    <Content Include="Contracts\ContractView.aspx" />
+    <Content Include="Contracts\контракт.htm" />
+    <Content Include="Contracts\контракт.xml" />
+    <Content Include="Control\bulletplan.aspx" />
+    <Content Include="Control\CertControl.aspx" />
+    <Content Include="Control\DKOTelephones.htm" />
+    <Content Include="Control\Documentum.aspx" />
+    <Content Include="Control\dolgi.aspx" />
+    <Content Include="Control\MovingControl.aspx" />
+    <Content Include="Control\moving_view.aspx" />
+    <Content Include="Control\PersFileControl.aspx" />
+    <Content Include="Control\Prikaz.aspx" />
+    <Content Include="Control\SokrControl.aspx" />
+    <Content Include="Control\UvedomControl.aspx" />
+    <Content Include="Control\ZvanControl.aspx" />
+    <Content Include="Corruption\CorruptBlank.aspx" />
+    <Content Include="Declaration\Declaration.aspx" />
+    <Content Include="Declaration\EditDecl.aspx" />
+    <Content Include="denied_expl.aspx" />
+    <Content Include="DetailList.aspx" />
+    <Content Include="DetailPage.aspx" />
+    <Content Include="Discipline\BadPoo.aspx" />
+    <Content Include="Discipline\DetailNak.aspx" />
+    <Content Include="Discipline\DetailPoo.aspx" />
+    <Content Include="Discipline\discipline.aspx" />
+    <Content Include="Discipline\Disc_stat.aspx" />
+    <Content Include="Discipline\nak_list.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="GoToPolice\PersAttestationForm.aspx" />
+    <Content Include="Guestbook\guestbook.aspx" />
+    <Content Include="Guestbook\guestbook.xml" />
+    <Content Include="Guide\howtoreg.htm" />
+    <Content Include="HotPoint\DetailKom.aspx" />
+    <Content Include="HotPoint\hotpoint.aspx" />
+    <Content Include="HotPoint\Spravka.aspx" />
+    <Content Include="images\77pic.gif" />
+    <Content Include="images\all_nagrad.gif" />
+    <Content Include="images\arr.gif" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\att_report.gif" />
+    <Content Include="images\att_status0.gif" />
+    <Content Include="images\att_status0_small.gif" />
+    <Content Include="images\att_status1.gif" />
+    <Content Include="images\att_status1_small.gif" />
+    <Content Include="images\att_status2_small.gif" />
+    <Content Include="images\background.gif" />
+    <Content Include="images\background2.gif" />
+    <Content Include="images\back_gray.gif" />
+    <Content Include="images\bannerPZ.gif" />
+    <Content Include="images\book.gif" />
+    <Content Include="images\bottom.gif" />
+    <Content Include="images\btm_line.gif" />
+    <Content Include="images\btn_650.gif" />
+    <Content Include="images\btn_add.gif" />
+    <Content Include="images\btn_addservice.gif" />
+    <Content Include="images\btn_add_sp.gif" />
+    <Content Include="images\btn_archive.gif" />
+    <Content Include="images\btn_attestat.gif" />
+    <Content Include="images\btn_badpoo.gif" />
+    <Content Include="images\btn_cancel.gif" />
+    <Content Include="images\btn_cancel2.gif" />
+    <Content Include="images\btn_certcontrol.gif" />
+    <Content Include="images\btn_cert_control.gif" />
+    <Content Include="images\btn_change.gif" />
+    <Content Include="images\btn_clear.gif" />
+    <Content Include="images\btn_contract.gif" />
+    <Content Include="images\btn_corrupt.gif" />
+    <Content Include="images\btn_czn.gif" />
+    <Content Include="images\btn_delete.gif" />
+    <Content Include="images\btn_dirview.gif" />
+    <Content Include="images\btn_doccontrol.gif" />
+    <Content Include="images\btn_documentum.gif" />
+    <Content Include="images\btn_excel.gif" />
+    <Content Include="images\btn_exchange.gif" />
+    <Content Include="images\btn_firsted.gif" />
+    <Content Include="images\btn_forum.gif" />
+    <Content Include="images\btn_get_photos.gif" />
+    <Content Include="images\btn_get_spis.gif" />
+    <Content Include="images\btn_go_sp.gif" />
+    <Content Include="images\btn_graf.gif" />
+    <Content Include="images\btn_help.gif" />
+    <Content Include="images\btn_hotcontrol.gif" />
+    <Content Include="images\btn_hotpoint.gif" />
+    <Content Include="images\btn_howtoreg.gif" />
+    <Content Include="images\btn_inout.gif" />
+    <Content Include="images\btn_inoutcontrol.gif" />
+    <Content Include="images\btn_in_sp.gif" />
+    <Content Include="images\btn_isxpfile.gif" />
+    <Content Include="images\btn_lgot_table.gif" />
+    <Content Include="images\btn_list.gif" />
+    <Content Include="images\btn_list1.gif" />
+    <Content Include="images\btn_load_data.gif" />
+    <Content Include="images\btn_load_sp.gif" />
+    <Content Include="images\btn_metoda.gif" />
+    <Content Include="images\btn_metody.gif" />
+    <Content Include="images\btn_moving.gif" />
+    <Content Include="images\btn_mvd.gif" />
+    <Content Include="images\btn_nak.gif" />
+    <Content Include="images\btn_nak_sp.gif" />
+    <Content Include="images\btn_nek_all.gif" />
+    <Content Include="images\btn_nek_slu.gif" />
+    <Content Include="images\btn_netstat.gif" />
+    <Content Include="images\btn_new_sp.gif" />
+    <Content Include="images\btn_next.gif" />
+    <Content Include="images\btn_nzp.gif" />
+    <Content Include="images\btn_obrazov.gif" />
+    <Content Include="images\btn_opercontrol.gif" />
+    <Content Include="images\btn_out_sp.gif" />
+    <Content Include="images\btn_pensia.gif" />
+    <Content Include="images\btn_pereatt.gif" />
+    <Content Include="images\btn_pfile.gif" />
+    <Content Include="images\btn_pfilecontrol.gif" />
+    <Content Include="images\btn_policecheck.gif" />
+    <Content Include="images\btn_poo.gif" />
+    <Content Include="images\btn_prnver.gif" />
+    <Content Include="images\btn_save.gif" />
+    <Content Include="images\btn_save_photo.gif" />
+    <Content Include="images\btn_save_sp.gif" />
+    <Content Include="images\btn_sbp_stat.gif" />
+    <Content Include="images\btn_schema.gif" />
+    <Content Include="images\btn_send.gif" />
+    <Content Include="images\btn_sendemail.gif" />
+    <Content Include="images\btn_sendmail.gif" />
+    <Content Include="images\btn_skr_time.gif" />
+    <Content Include="images\btn_sokrcontrol.gif" />
+    <Content Include="images\btn_sopost.gif" />
+    <Content Include="images\btn_sp.gif" />
+    <Content Include="images\btn_spr1.gif" />
+    <Content Include="images\btn_spr2.gif" />
+    <Content Include="images\btn_spr3.gif" />
+    <Content Include="images\btn_spr4.gif" />
+    <Content Include="images\btn_spr5.gif" />
+    <Content Include="images\btn_spr6.gif" />
+    <Content Include="images\btn_spr_stag.gif" />
+    <Content Include="images\btn_stat.gif" />
+    <Content Include="images\btn_update.gif" />
+    <Content Include="images\btn_uvcontrol.gif" />
+    <Content Include="images\btn_uvedoml.gif" />
+    <Content Include="images\btn_uvedom_give.gif" />
+    <Content Include="images\btn_uvedom_print.gif" />
+    <Content Include="images\btn_uvedom_vac.gif" />
+    <Content Include="images\btn_vakansy.gif" />
+    <Content Include="images\btn_vakansy2.gif" />
+    <Content Include="images\btn_vakansy3.gif" />
+    <Content Include="images\btn_view.gif" />
+    <Content Include="images\btn_word.gif" />
+    <Content Include="images\btn_zappfile.gif" />
+    <Content Include="images\btn_zone.gif" />
+    <Content Include="images\btn_zop.gif" />
+    <Content Include="images\btn_zvancontrol.gif" />
+    <Content Include="images\btn_zv_ctrl.gif" />
+    <Content Include="images\bullet.gif" />
+    <Content Include="images\bullet1.gif" />
+    <Content Include="images\bullet_hl.gif" />
+    <Content Include="images\cert.gif" />
+    <Content Include="images\chrome.gif" />
+    <Content Include="images\chstatus.gif" />
+    <Content Include="images\cnti.gif" />
+    <Content Include="images\cnti_logo.gif" />
+    <Content Include="images\concept.gif" />
+    <Content Include="images\consult.gif" />
+    <Content Include="images\d1-header.gif" />
+    <Content Include="images\d2-header.gif" />
+    <Content Include="images\delo.gif" />
+    <Content Include="images\dko_banner.gif" />
+    <Content Include="images\dko_phones.gif" />
+    <Content Include="images\download.gif" />
+    <Content Include="images\east_zone.gif" />
+    <Content Include="images\email2.gif" />
+    <Content Include="images\fdd.gif" />
+    <Content Include="images\firefox.gif" />
+    <Content Include="images\fox_logo.gif" />
+    <Content Include="images\fz342_btn.gif" />
+    <Content Include="images\G1.gif" />
+    <Content Include="images\gerb.gif" />
+    <Content Include="images\gerb.jpg" />
+    <Content Include="images\gerb2.gif" />
+    <Content Include="images\grafik2013_icon.gif" />
+    <Content Include="images\green_arr.gif" />
+    <Content Include="images\header2-1.gif" />
+    <Content Include="images\header2-10.gif" />
+    <Content Include="images\header2-11.gif" />
+    <Content Include="images\header2-12.gif" />
+    <Content Include="images\header2-13.gif" />
+    <Content Include="images\header2-14.gif" />
+    <Content Include="images\header2-15.gif" />
+    <Content Include="images\header2-16.gif" />
+    <Content Include="images\header2-17.gif" />
+    <Content Include="images\header2-18.gif" />
+    <Content Include="images\header2-19.gif" />
+    <Content Include="images\header2-2.gif" />
+    <Content Include="images\header2-20.gif" />
+    <Content Include="images\header2-21.gif" />
+    <Content Include="images\header2-22.gif" />
+    <Content Include="images\header2-23.gif" />
+    <Content Include="images\header2-24.gif" />
+    <Content Include="images\header2-25.gif" />
+    <Content Include="images\header2-26.gif" />
+    <Content Include="images\header2-27.gif" />
+    <Content Include="images\header2-28.gif" />
+    <Content Include="images\header2-29.gif" />
+    <Content Include="images\header2-3.gif" />
+    <Content Include="images\header2-30.gif" />
+    <Content Include="images\header2-31.gif" />
+    <Content Include="images\header2-32.gif" />
+    <Content Include="images\header2-33.gif" />
+    <Content Include="images\header2-34.gif" />
+    <Content Include="images\header2-35.gif" />
+    <Content Include="images\header2-36.gif" />
+    <Content Include="images\header2-37.gif" />
+    <Content Include="images\header2-38.gif" />
+    <Content Include="images\header2-39.gif" />
+    <Content Include="images\header2-4.gif" />
+    <Content Include="images\header2-40.gif" />
+    <Content Include="images\header2-41.gif" />
+    <Content Include="images\header2-42.gif" />
+    <Content Include="images\header2-43.gif" />
+    <Content Include="images\header2-44.gif" />
+    <Content Include="images\header2-45.gif" />
+    <Content Include="images\header2-46.gif" />
+    <Content Include="images\header2-47.gif" />
+    <Content Include="images\header2-48.gif" />
+    <Content Include="images\header2-49.gif" />
+    <Content Include="images\header2-5.gif" />
+    <Content Include="images\header2-6.gif" />
+    <Content Include="images\header2-7.gif" />
+    <Content Include="images\header2-8.gif" />
+    <Content Include="images\header2-9.gif" />
+    <Content Include="images\header2-Header.gif" />
+    <Content Include="images\header2-header211.gif" />
+    <Content Include="images\header2-header213.gif" />
+    <Content Include="images\header2-header214.gif" />
+    <Content Include="images\header2-header216.gif" />
+    <Content Include="images\header2-header218.gif" />
+    <Content Include="images\header2-header22.gif" />
+    <Content Include="images\header2-header220.gif" />
+    <Content Include="images\header2-header222.gif" />
+    <Content Include="images\header2-header223.gif" />
+    <Content Include="images\header2-header224.gif" />
+    <Content Include="images\header2-header225.gif" />
+    <Content Include="images\header2-header226.gif" />
+    <Content Include="images\header2-header227.gif" />
+    <Content Include="images\header2-header228.gif" />
+    <Content Include="images\header2-header229.gif" />
+    <Content Include="images\header2-header23.gif" />
+    <Content Include="images\header2-header230.gif" />
+    <Content Include="images\header2-header231.gif" />
+    <Content Include="images\header2-header25.gif" />
+    <Content Include="images\header2-header27.gif" />
+    <Content Include="images\header2-header29.gif" />
+    <Content Include="images\header2-menu01.gif" />
+    <Content Include="images\header2-menu01_down.gif" />
+    <Content Include="images\header2-menu01_over.gif" />
+    <Content Include="images\header2-menu02.gif" />
+    <Content Include="images\header2-menu02_down.gif" />
+    <Content Include="images\header2-menu02_over.gif" />
+    <Content Include="images\header2-menu03.gif" />
+    <Content Include="images\header2-menu03_down.gif" />
+    <Content Include="images\header2-menu03_over.gif" />
+    <Content Include="images\header2-menu04.gif" />
+    <Content Include="images\header2-menu04_down.gif" />
+    <Content Include="images\header2-menu04_over.gif" />
+    <Content Include="images\header2-menu05.gif" />
+    <Content Include="images\header2-menu05_down.gif" />
+    <Content Include="images\header2-menu05_over.gif" />
+    <Content Include="images\header2-menu06.gif" />
+    <Content Include="images\header2-menu06_down.gif" />
+    <Content Include="images\header2-menu06_over.gif" />
+    <Content Include="images\header2-menu07.gif" />
+    <Content Include="images\header2-menu07_down.gif" />
+    <Content Include="images\header2-menu07_over.gif" />
+    <Content Include="images\header2-menu08.gif" />
+    <Content Include="images\header2-menu08_down.gif" />
+    <Content Include="images\header2-menu08_over.gif" />
+    <Content Include="images\header2-menu09.gif" />
+    <Content Include="images\header2-menu09_down.gif" />
+    <Content Include="images\header2-menu09_over.gif" />
+    <Content Include="images\header3.gif" />
+    <Content Include="images\head_small.gif" />
+    <Content Include="images\home.gif" />
+    <Content Include="images\home.jpg" />
+    <Content Include="images\hystory_book.gif" />
+    <Content Include="images\ie_logo.gif" />
+    <Content Include="images\iis.gif" />
+    <Content Include="images\iskat.gif" />
+    <Content Include="images\ivregion.gif" />
+    <Content Include="images\kikot_small.gif" />
+    <Content Include="images\kniga_medali.gif" />
+    <Content Include="images\kubok.gif" />
+    <Content Include="images\licvidation.gif" />
+    <Content Include="images\lmenu1_07.gif" />
+    <Content Include="images\logo.ico" />
+    <Content Include="images\logo2.ico" />
+    <Content Include="images\lubyanka.gif" />
+    <Content Include="images\main_header.gif" />
+    <Content Include="images\menu-1.gif" />
+    <Content Include="images\menu-10.gif" />
+    <Content Include="images\menu-11.gif" />
+    <Content Include="images\menu-12.gif" />
+    <Content Include="images\menu-13.gif" />
+    <Content Include="images\menu-14.gif" />
+    <Content Include="images\menu-15.gif" />
+    <Content Include="images\menu-16.gif" />
+    <Content Include="images\menu-17.gif" />
+    <Content Include="images\menu-18.gif" />
+    <Content Include="images\menu-19.gif" />
+    <Content Include="images\menu-2.gif" />
+    <Content Include="images\menu-20.gif" />
+    <Content Include="images\menu-21.gif" />
+    <Content Include="images\menu-22.gif" />
+    <Content Include="images\menu-23.gif" />
+    <Content Include="images\menu-24.gif" />
+    <Content Include="images\menu-25.gif" />
+    <Content Include="images\menu-26.gif" />
+    <Content Include="images\menu-27.gif" />
+    <Content Include="images\menu-28.gif" />
+    <Content Include="images\menu-29.gif" />
+    <Content Include="images\menu-3.gif" />
+    <Content Include="images\menu-30.gif" />
+    <Content Include="images\menu-31.gif" />
+    <Content Include="images\menu-32.gif" />
+    <Content Include="images\menu-33.gif" />
+    <Content Include="images\menu-34.gif" />
+    <Content Include="images\menu-35.gif" />
+    <Content Include="images\menu-36.gif" />
+    <Content Include="images\menu-37.gif" />
+    <Content Include="images\menu-38.gif" />
+    <Content Include="images\menu-39.gif" />
+    <Content Include="images\menu-4.gif" />
+    <Content Include="images\menu-40.gif" />
+    <Content Include="images\menu-41.gif" />
+    <Content Include="images\menu-42.gif" />
+    <Content Include="images\menu-43.gif" />
+    <Content Include="images\menu-44.gif" />
+    <Content Include="images\menu-45.gif" />
+    <Content Include="images\menu-46.gif" />
+    <Content Include="images\menu-47.gif" />
+    <Content Include="images\menu-48.gif" />
+    <Content Include="images\menu-5.gif" />
+    <Content Include="images\menu-6.gif" />
+    <Content Include="images\menu-7.gif" />
+    <Content Include="images\menu-8.gif" />
+    <Content Include="images\menu-9.gif" />
+    <Content Include="images\minus.gif" />
+    <Content Include="images\mozilla_logo.gif" />
+    <Content Include="images\mspd.gif" />
+    <Content Include="images\mspd2.gif" />
+    <Content Include="images\mspd_action.gif" />
+    <Content Include="images\mvdru.gif" />
+    <Content Include="images\mvd_btnl.gif" />
+    <Content Include="images\mvd_inform_banner.gif" />
+    <Content Include="images\nagradyAll.gif" />
+    <Content Include="images\nagrady_1.gif" />
+    <Content Include="images\nagrady_2.gif" />
+    <Content Include="images\nek-header.gif" />
+    <Content Include="images\north_zone.gif" />
+    <Content Include="images\notolk.gif" />
+    <Content Include="images\nowork.gif" />
+    <Content Include="images\nsearch.gif" />
+    <Content Include="images\ntica.gif" />
+    <Content Include="images\object.gif" />
+    <Content Include="images\oklady_big.gif" />
+    <Content Include="images\oklady_ico.gif" />
+    <Content Include="images\oklady_small.gif" />
+    <Content Include="images\omon_logo.gif" />
+    <Content Include="images\open.gif" />
+    <Content Include="images\open_1.gif" />
+    <Content Include="images\opera_logo.gif" />
+    <Content Include="images\osd_stat.gif" />
+    <Content Include="images\otlich2003.gif" />
+    <Content Include="images\otlich2004.gif" />
+    <Content Include="images\otlich2005.gif" />
+    <Content Include="images\otlich2006.gif" />
+    <Content Include="images\otlich2007.gif" />
+    <Content Include="images\otlich2008.gif" />
+    <Content Include="images\otlich2009.gif" />
+    <Content Include="images\otlich2010.gif" />
+    <Content Include="images\otlich2011.gif" />
+    <Content Include="images\otlich2012.gif" />
+    <Content Include="images\otlich_2012.gif" />
+    <Content Include="images\per_doc.gif" />
+    <Content Include="images\pie.gif" />
+    <Content Include="images\pl-header.gif" />
+    <Content Include="images\plus.gif" />
+    <Content Include="images\policemen.gif" />
+    <Content Include="images\profilaktika.gif" />
+    <Content Include="images\red_sign.gif" />
+    <Content Include="images\registration.gif" />
+    <Content Include="images\reglament.gif" />
+    <Content Include="images\Rereg.gif" />
+    <Content Include="images\reserv_btn.gif" />
+    <Content Include="images\sc-header.gif" />
+    <Content Include="images\schema.gif" />
+    <Content Include="images\schema77.gif" />
+    <Content Include="images\search.gif" />
+    <Content Include="images\shema.jpg" />
+    <Content Include="images\shtdol.gif" />
+    <Content Include="images\Sign.gif" />
+    <Content Include="images\sign_v.gif" />
+    <Content Include="images\sl-header.gif" />
+    <Content Include="images\small_header.gif" />
+    <Content Include="images\smart_logo.gif" />
+    <Content Include="images\sn-header.gif" />
+    <Content Include="images\sortbulb.gif" />
+    <Content Include="images\south_zone.gif" />
+    <Content Include="images\sp-header.gif" />
+    <Content Include="images\sp2.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\star.gif" />
+    <Content Include="images\str-header.gif" />
+    <Content Include="images\strbottom.gif" />
+    <Content Include="images\strhead.gif" />
+    <Content Include="images\sv-header.gif" />
+    <Content Include="images\textsearch.gif" />
+    <Content Include="images\tree.gif" />
+    <Content Include="images\tube_blue.gif" />
+    <Content Include="images\tube_red.gif" />
+    <Content Include="images\ucz_btn.gif" />
+    <Content Include="images\uum.gif" />
+    <Content Include="images\video.gif" />
+    <Content Include="images\vysluga.gif" />
+    <Content Include="images\v_top.gif" />
+    <Content Include="images\wb_btn.gif" />
+    <Content Include="images\west_zone.gif" />
+    <Content Include="images\workbook_btn.gif" />
+    <Content Include="images\zs_01-Map_01_over.gif" />
+    <Content Include="images\zs_01-Map_02_over.gif" />
+    <Content Include="images\zs_01-Map_03_over.gif" />
+    <Content Include="images\zs_01-Map_04_over.gif" />
+    <Content Include="images\zs_01.gif" />
+    <Content Include="index.aspx" />
+    <Content Include="InOut\InOut.aspx" />
+    <Content Include="InOut\lastout.aspx" />
+    <Content Include="InOut\viewresult.aspx" />
+    <Content Include="istsodhlp.files\colorschememapping.xml" />
+    <Content Include="istsodhlp.files\filelist.xml" />
+    <Content Include="List\List.aspx" />
+    <Content Include="List\viewlist.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Moving\moving.aspx" />
+    <Content Include="Mspd\mspd_main.aspx" />
+    <Content Include="Mspd\mspd_mem.gif" />
+    <Content Include="Nekompl\nekompl.aspx" />
+    <Content Include="Nekompl\nek_sluz.aspx" />
+    <Content Include="Nekompl\nek_svod.aspx" />
+    <Content Include="Nekompl\vak_detail.aspx" />
+    <Content Include="News\images\browsers.gif" />
+    <Content Include="News\images\fired.gif" />
+    <Content Include="News\images\fz342.gif" />
+    <Content Include="News\images\vacation.gif" />
+    <Content Include="News\images\zametka.gif" />
+    <Content Include="News\main_rule.htm" />
+    <Content Include="News\news0001.htm" />
+    <Content Include="News\news0002.htm" />
+    <Content Include="News\news0003.htm" />
+    <Content Include="News\news1.htm" />
+    <Content Include="Normatives\metody.aspx" />
+    <Content Include="Normatives\normatives.aspx" />
+    <Content Include="oklady.files\colorschememapping.xml" />
+    <Content Include="oklady.files\filelist.xml" />
+    <Content Include="Photobank\000000.jpg" />
+    <Content Include="ProfPod\EditFirstEducation.aspx" />
+    <Content Include="ProfPod\firsted_control.aspx" />
+    <Content Include="ProfPod\first_education.aspx" />
+    <Content Include="ProfPod\sbp_stat.aspx" />
+    <Content Include="Quality\Education.aspx" />
+    <Content Include="Quality\Quality.aspx" />
+    <Content Include="Quality\Statistics.xml" />
+    <Content Include="Raschet\pensia.aspx" />
+    <Content Include="Raschet\raschet.aspx" />
+    <Content Include="Reserv\res_main.aspx" />
+    <Content Include="Search\search.aspx" />
+    <Content Include="Services\Struct.asmx" />
+    <Content Include="Structure\orgstr.aspx" />
+    <Content Include="Structure\viewstr.aspx" />
+    <Content Include="ToAdmin\toadmin.aspx" />
+    <Content Include="Vacations\edit_uvedom_form.aspx" />
+    <Content Include="Vacations\VacationControl.aspx" />
+    <Content Include="Vacations\vac_uvedom.aspx" />
+    <Content Include="Vakans\anketa.aspx" />
+    <Content Include="Vakans\HotVak.aspx" />
+    <Content Include="Vakans\select_jobs.aspx" />
+    <Content Include="Vakans\svodTable.aspx" />
+    <Content Include="Vakans\vakansy.aspx" />
+    <Content Include="Vakans\viewresult.aspx" />
+    <Content Include="Vakans\v_result.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\sostav.aspx.cs">
+      <DependentUpon>sostav.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About\sostav.aspx.designer.cs">
+      <DependentUpon>sostav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\ukDataSet.Designer.cs" />
+    <Compile Include="About\viewukpeople.aspx.cs">
+      <DependentUpon>viewukpeople.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About\viewukpeople.aspx.designer.cs">
+      <DependentUpon>viewukpeople.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdditionalServices.aspx.cs">
+      <DependentUpon>AdditionalServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdditionalServices.aspx.designer.cs">
+      <DependentUpon>AdditionalServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddService.aspx.cs">
+      <DependentUpon>AddService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddService.aspx.designer.cs">
+      <DependentUpon>AddService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attestation\AddAttestation.aspx.cs">
+      <DependentUpon>AddAttestation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attestation\attDataSet.Designer.cs" />
+    <Compile Include="Attestation\Attestation.aspx.cs">
+      <DependentUpon>Attestation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attestation\Attestation.aspx.designer.cs">
+      <DependentUpon>Attestation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attestation\DeleteAttestation.aspx.cs">
+      <DependentUpon>DeleteAttestation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attestation\DeleteAttestation.aspx.designer.cs">
+      <DependentUpon>DeleteAttestation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attestation\EditAttestation.aspx.cs">
+      <DependentUpon>EditAttestation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attestation\MainAttestation.aspx.cs">
+      <DependentUpon>MainAttestation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attestation\MainAttestation.aspx.designer.cs">
+      <DependentUpon>MainAttestation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attestation\pdrDataSet.Designer.cs" />
+    <Compile Include="Attestation\persDataSet.Designer.cs" />
+    <Compile Include="Attestation\slv_attDataSet.Designer.cs" />
+    <Compile Include="Attestation\viewDataSet.Designer.cs" />
+    <Compile Include="BornToday\bornDataSet.Designer.cs" />
+    <Compile Include="BornToday\borntoday.aspx.cs">
+      <DependentUpon>borntoday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="certDataSet.Designer.cs" />
+    <Compile Include="Contracts\Contract.aspx.cs">
+      <DependentUpon>Contract.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contracts\Contract.aspx.designer.cs">
+      <DependentUpon>Contract.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts\ContractView.aspx.cs">
+      <DependentUpon>ContractView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contracts\ContractView.aspx.designer.cs">
+      <DependentUpon>ContractView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\archDataSet.Designer.cs" />
+    <Compile Include="Control\bulletplan.aspx.cs">
+      <DependentUpon>bulletplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\bulletplan.aspx.designer.cs">
+      <DependentUpon>bulletplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\CertControl.aspx.cs">
+      <DependentUpon>CertControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\certDataSet.Designer.cs" />
+    <Compile Include="Control\ctrlDataSet.Designer.cs" />
+    <Compile Include="Control\docDataSet.Designer.cs" />
+    <Compile Include="Control\Documentum.aspx.cs">
+      <DependentUpon>Documentum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\dolgi.aspx.cs">
+      <DependentUpon>dolgi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\dolgi.aspx.designer.cs">
+      <DependentUpon>dolgi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\MovingControl.aspx.cs">
+      <DependentUpon>MovingControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\MovingControl.aspx.designer.cs">
+      <DependentUpon>MovingControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\moving_view.aspx.cs">
+      <DependentUpon>moving_view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\moving_view.aspx.designer.cs">
+      <DependentUpon>moving_view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\nakDataSet.Designer.cs" />
+    <Compile Include="Control\PersFileControl.aspx.cs">
+      <DependentUpon>PersFileControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\PersFileControl.aspx.designer.cs">
+      <DependentUpon>PersFileControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\pfileDataSet.Designer.cs" />
+    <Compile Include="Control\Prikaz.aspx.cs">
+      <DependentUpon>Prikaz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Prikaz.aspx.designer.cs">
+      <DependentUpon>Prikaz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\slvdocDataSet.Designer.cs" />
+    <Compile Include="Control\SokrControl.aspx.cs">
+      <DependentUpon>SokrControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\SokrControl.aspx.designer.cs">
+      <DependentUpon>SokrControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\sokrDataSet.Designer.cs" />
+    <Compile Include="Control\UvedomControl.aspx.cs">
+      <DependentUpon>UvedomControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\UvedomControl.aspx.designer.cs">
+      <DependentUpon>UvedomControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ZvanControl.aspx.cs">
+      <DependentUpon>ZvanControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ZvanControl.aspx.designer.cs">
+      <DependentUpon>ZvanControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Corruption\CorruptBlank.aspx.cs">
+      <DependentUpon>CorruptBlank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corruption\CorruptBlank.aspx.designer.cs">
+      <DependentUpon>CorruptBlank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="DateDifference.cs" />
+    <Compile Include="Declaration\Declaration.aspx.cs">
+      <DependentUpon>Declaration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Declaration\Declaration.aspx.designer.cs">
+      <DependentUpon>Declaration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Declaration\EditDecl.aspx.cs">
+      <DependentUpon>EditDecl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Declaration\EditDecl.aspx.designer.cs">
+      <DependentUpon>EditDecl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="denied_expl.aspx.cs">
+      <DependentUpon>denied_expl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="denied_expl.aspx.designer.cs">
+      <DependentUpon>denied_expl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailList.aspx.cs">
+      <DependentUpon>DetailList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailList.aspx.designer.cs">
+      <DependentUpon>DetailList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailPage.aspx.cs">
+      <DependentUpon>DetailPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailPage.aspx.designer.cs">
+      <DependentUpon>DetailPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discipline\BadPoo.aspx.cs">
+      <DependentUpon>BadPoo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discipline\BadPoo.aspx.designer.cs">
+      <DependentUpon>BadPoo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discipline\DetailNak.aspx.cs">
+      <DependentUpon>DetailNak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discipline\DetailNak.aspx.designer.cs">
+      <DependentUpon>DetailNak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discipline\DetailPoo.aspx.cs">
+      <DependentUpon>DetailPoo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discipline\DetailPoo.aspx.designer.cs">
+      <DependentUpon>DetailPoo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discipline\discipline.aspx.cs">
+      <DependentUpon>discipline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discipline\Disc_stat.aspx.cs">
+      <DependentUpon>Disc_stat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discipline\nakazDataSet.Designer.cs" />
+    <Compile Include="Discipline\nak_list.aspx.cs">
+      <DependentUpon>nak_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discipline\nak_list.aspx.designer.cs">
+      <DependentUpon>nak_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discipline\pooDataSet.Designer.cs" />
+    <Compile Include="Discipline\stat_pdr_DataSet.Designer.cs" />
+    <Compile Include="Discipline\stat_sl_DataSet.Designer.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalTransform.cs" />
+    <Compile Include="GoToPolice\PersAttestationForm.aspx.cs">
+      <DependentUpon>PersAttestationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoToPolice\PersAttestationForm.aspx.designer.cs">
+      <DependentUpon>PersAttestationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guestbook\guestbook.aspx.cs">
+      <DependentUpon>guestbook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Guestbook\guestbook.aspx.designer.cs">
+      <DependentUpon>guestbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HotPoint\DetailKom.aspx.cs">
+      <DependentUpon>DetailKom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotPoint\DetailKom.aspx.designer.cs">
+      <DependentUpon>DetailKom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HotPoint\DetailKomDataSet.Designer.cs" />
+    <Compile Include="HotPoint\hotpoint.aspx.cs">
+      <DependentUpon>hotpoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotPoint\hotpoint.aspx.designer.cs">
+      <DependentUpon>hotpoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HotPoint\komDataSet.Designer.cs" />
+    <Compile Include="HotPoint\Spravka.aspx.cs">
+      <DependentUpon>Spravka.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotPoint\Spravka.aspx.designer.cs">
+      <DependentUpon>Spravka.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InOut\DataSet1.Designer.cs" />
+    <Compile Include="InOut\InOut.aspx.cs">
+      <DependentUpon>InOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InOut\lastout.aspx.cs">
+      <DependentUpon>lastout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InOut\viewresult.aspx.cs">
+      <DependentUpon>viewresult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InOut\viewresult.aspx.designer.cs">
+      <DependentUpon>viewresult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="istDataSet.Designer.cs" />
+    <Compile Include="List\catDataSet.Designer.cs" />
+    <Compile Include="List\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="List\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="List\viewDataSet.Designer.cs" />
+    <Compile Include="List\viewlist.aspx.cs">
+      <DependentUpon>viewlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="List\viewlist.aspx.designer.cs">
+      <DependentUpon>viewlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mainDataSet.Designer.cs" />
+    <Compile Include="Moving\moving.aspx.cs">
+      <DependentUpon>moving.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mspd\emailDataSet.Designer.cs" />
+    <Compile Include="Mspd\mspd_main.aspx.cs">
+      <DependentUpon>mspd_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mspd\mspd_main.aspx.designer.cs">
+      <DependentUpon>mspd_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nationDataSet.Designer.cs" />
+    <Compile Include="Nekompl\data.cs" />
+    <Compile Include="Nekompl\nekompl.aspx.cs">
+      <DependentUpon>nekompl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nekompl\nekompl.aspx.designer.cs">
+      <DependentUpon>nekompl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nekompl\nek_sluz.aspx.cs">
+      <DependentUpon>nek_sluz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nekompl\nek_sluz.aspx.designer.cs">
+      <DependentUpon>nek_sluz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nekompl\nek_svod.aspx.cs">
+      <DependentUpon>nek_svod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nekompl\nek_svod.aspx.designer.cs">
+      <DependentUpon>nek_svod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nekompl\podchDataSet.Designer.cs" />
+    <Compile Include="Nekompl\podrDataSet.Designer.cs" />
+    <Compile Include="Nekompl\sluDataSet.Designer.cs" />
+    <Compile Include="Nekompl\vakDataSet.Designer.cs" />
+    <Compile Include="Nekompl\vak_detail.aspx.cs">
+      <DependentUpon>vak_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nekompl\vak_detail.aspx.designer.cs">
+      <DependentUpon>vak_detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nekompl\workDataSet.Designer.cs" />
+    <Compile Include="Nekompl\work_sDataSet.Designer.cs" />
+    <Compile Include="Normatives\metody.aspx.cs">
+      <DependentUpon>metody.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Normatives\normatives.aspx.cs">
+      <DependentUpon>normatives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PassDataSet.Designer.cs" />
+    <Compile Include="podrDataSet.Designer.cs" />
+    <Compile Include="ProfPod\EditFirstEducation.aspx.cs">
+      <DependentUpon>EditFirstEducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfPod\EditFirstEducation.aspx.designer.cs">
+      <DependentUpon>EditFirstEducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfPod\firsted_control.aspx.cs">
+      <DependentUpon>firsted_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfPod\firsted_control.aspx.designer.cs">
+      <DependentUpon>firsted_control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfPod\first_education.aspx.cs">
+      <DependentUpon>first_education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfPod\first_education.aspx.designer.cs">
+      <DependentUpon>first_education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfPod\sbp_stat.aspx.cs">
+      <DependentUpon>sbp_stat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfPod\sbp_stat.aspx.designer.cs">
+      <DependentUpon>sbp_stat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quality\Education.aspx.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quality\kvaDataSet.Designer.cs" />
+    <Compile Include="Quality\listDataSet.Designer.cs" />
+    <Compile Include="Quality\obrDataSet.Designer.cs" />
+    <Compile Include="Quality\Quality.aspx.cs">
+      <DependentUpon>Quality.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Raschet\pensia.aspx.cs">
+      <DependentUpon>pensia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Raschet\raschet.aspx.cs">
+      <DependentUpon>raschet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Raschet\raschet.aspx.designer.cs">
+      <DependentUpon>raschet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reserv\res_main.aspx.cs">
+      <DependentUpon>res_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reserv\res_main.aspx.designer.cs">
+      <DependentUpon>res_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\dolzDataSet.Designer.cs" />
+    <Compile Include="Search\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security\secureDataSet.Designer.cs" />
+    <Compile Include="Security\Security.cs" />
+    <Compile Include="Services\Struct.asmx.cs">
+      <DependentUpon>Struct.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sluzDataSet.Designer.cs" />
+    <Compile Include="slvDataSet.Designer.cs" />
+    <Compile Include="Structure\orgstr.aspx.cs">
+      <DependentUpon>orgstr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Structure\orgstr.aspx.designer.cs">
+      <DependentUpon>orgstr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Structure\strDataSet.Designer.cs" />
+    <Compile Include="Structure\viewstr.aspx.cs">
+      <DependentUpon>viewstr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Structure\viewstr.aspx.designer.cs">
+      <DependentUpon>viewstr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Structure\zvDataSet.Designer.cs" />
+    <Compile Include="tmpDataSet.Designer.cs" />
+    <Compile Include="ToAdmin\toadmin.aspx.cs">
+      <DependentUpon>toadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToAdmin\toadmin.aspx.designer.cs">
+      <DependentUpon>toadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vacations\edit_uvedom_form.aspx.cs">
+      <DependentUpon>edit_uvedom_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vacations\edit_uvedom_form.aspx.designer.cs">
+      <DependentUpon>edit_uvedom_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vacations\VacationControl.aspx.cs">
+      <DependentUpon>VacationControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vacations\VacationControl.aspx.designer.cs">
+      <DependentUpon>VacationControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vacations\vac_uvedom.aspx.cs">
+      <DependentUpon>vac_uvedom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vacations\vac_uvedom.aspx.designer.cs">
+      <DependentUpon>vac_uvedom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vakans\anketa.aspx.cs">
+      <DependentUpon>anketa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\anketa.aspx.designer.cs">
+      <DependentUpon>anketa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vakans\HotVak.aspx.cs">
+      <DependentUpon>HotVak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\HotVak.aspx.designer.cs">
+      <DependentUpon>HotVak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vakans\hotvakDataSet.Designer.cs" />
+    <Compile Include="Vakans\select_job.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\svodTable.aspx.cs">
+      <DependentUpon>svodTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\svodTable.aspx.designer.cs">
+      <DependentUpon>svodTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vakans\svodvakDataSet.Designer.cs" />
+    <Compile Include="Vakans\vakansy.aspx.cs">
+      <DependentUpon>vakansy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\vakansy.aspx.designer.cs">
+      <DependentUpon>vakansy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vakans\vakDataSet.Designer.cs" />
+    <Compile Include="Vakans\viewresult.aspx.cs">
+      <DependentUpon>viewresult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\viewresult.aspx.designer.cs">
+      <DependentUpon>viewresult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vakans\v_result.aspx.cs">
+      <DependentUpon>v_result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vakans\v_result.aspx.designer.cs">
+      <DependentUpon>v_result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewDataSet.Designer.cs" />
+    <Compile Include="WordExcel.cs" />
+    <Compile Include="zvanDataSet.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About\hystory.files\_vti_cnf\.fp_folder_info" />
+    <Content Include="Admin\web.config" />
+    <Content Include="Blanks\Store\blank_001.zip" />
+    <Content Include="Blanks\Store\blank_002.zip" />
+    <Content Include="Blanks\Store\blank_003.zip" />
+    <Content Include="Blanks\Store\blank_004.zip" />
+    <Content Include="Blanks\Store\blank_005.zip" />
+    <Content Include="Blanks\Store\blank_006.zip" />
+    <Content Include="Blanks\Store\blank_007.zip" />
+    <Content Include="Blanks\Store\blank_008.zip" />
+    <Content Include="Blanks\Store\blank_009.zip" />
+    <Content Include="Blanks\Store\blank_010.zip" />
+    <Content Include="Blanks\Store\blank_011.zip" />
+    <Content Include="Blanks\Store\blank_012.zip" />
+    <Content Include="Blanks\Store\blank_013.zip" />
+    <Content Include="Blanks\Store\blank_014.zip" />
+    <Content Include="Blanks\Store\blank_015.zip" />
+    <Content Include="Blanks\Store\blank_016.zip" />
+    <Content Include="Blanks\Store\blank_017.zip" />
+    <Content Include="Blanks\Store\blank_018.zip" />
+    <Content Include="Blanks\Store\blank_019.zip" />
+    <Content Include="Blanks\Store\blank_020.zip" />
+    <Content Include="Blanks\Store\blank_021.zip" />
+    <Content Include="Blanks\Store\blank_022.zip" />
+    <Content Include="Blanks\Store\blank_023.zip" />
+    <Content Include="Blanks\Store\blank_024.zip" />
+    <Content Include="Blanks\Store\blank_025.zip" />
+    <Content Include="Blanks\Store\blank_026.zip" />
+    <Content Include="Contracts\контракт.doc" />
+    <Content Include="Contracts\контракт.docx" />
+    <Content Include="Contracts\контракт.dot" />
+    <Content Include="Contracts\контракт.rtf" />
+    <Content Include="Contracts\контракт2.dot" />
+    <Content Include="GoToPolice\concept.doc" />
+    <Content Include="istsodhlp.files\themedata.thmx" />
+    <Content Include="Nekompl\Web.config" />
+    <Content Include="Nekompl\Обязательство о неразглашении.doc" />
+    <Content Include="Normatives\Web.config" />
+    <Content Include="oklady.files\themedata.thmx" />
+    <Content Include="ProfPod\GradeReport2010.pdf" />
+    <None Include="Properties\PublishProfiles\kadry_profile.pubxml" />
+    <Content Include="Raschet\pensia.doc" />
+    <Content Include="Raschet\pensia.dot" />
+    <Content Include="Raschet\pensia.rtf" />
+    <Content Include="Raschet\Расчет.xlsx" />
+    <Content Include="Raschet\Расчет.xltm" />
+    <Content Include="Reserv\Reserv_metoda.doc" />
+    <Content Include="Reserv\Reserv_prikaz.doc" />
+    <Content Include="Reserv\Web.config" />
+    <Content Include="Structure\Web.config" />
+    <Content Include="Vacations\grafik2013.pdf" />
+    <Content Include="Vakans\Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About\about.aspx.resx">
+      <DependentUpon>about.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About\sostav.aspx.resx">
+      <DependentUpon>sostav.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About\viewukpeople.aspx.resx">
+      <DependentUpon>viewukpeople.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdditionalServices.aspx.resx">
+      <DependentUpon>AdditionalServices.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddService.aspx.resx">
+      <DependentUpon>AddService.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attestation\AddAttestation.aspx.resx">
+      <DependentUpon>AddAttestation.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attestation\Attestation.aspx.resx">
+      <DependentUpon>Attestation.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attestation\DeleteAttestation.aspx.resx">
+      <DependentUpon>DeleteAttestation.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attestation\EditAttestation.aspx.resx">
+      <DependentUpon>EditAttestation.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attestation\MainAttestation.aspx.resx">
+      <DependentUpon>MainAttestation.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BornToday\borntoday.aspx.resx">
+      <DependentUpon>borntoday.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\CertControl.aspx.resx">
+      <DependentUpon>CertControl.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Documentum.aspx.resx">
+      <DependentUpon>Documentum.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\dolgi.aspx.resx">
+      <DependentUpon>dolgi.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\PersFileControl.aspx.resx">
+      <DependentUpon>PersFileControl.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\SokrControl.aspx.resx">
+      <DependentUpon>SokrControl.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\ZvanControl.aspx.resx">
+      <DependentUpon>ZvanControl.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="denied_expl.aspx.resx">
+      <DependentUpon>denied_expl.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailList.aspx.resx">
+      <DependentUpon>DetailList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailPage.aspx.resx">
+      <DependentUpon>DetailPage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discipline\BadPoo.aspx.resx">
+      <DependentUpon>BadPoo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discipline\DetailNak.aspx.resx">
+      <DependentUpon>DetailNak.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discipline\DetailPoo.aspx.resx">
+      <DependentUpon>DetailPoo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discipline\discipline.aspx.resx">
+      <DependentUpon>discipline.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discipline\Disc_stat.aspx.resx">
+      <DependentUpon>Disc_stat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discipline\nak_list.aspx.resx">
+      <DependentUpon>nak_list.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guestbook\guestbook.aspx.resx">
+      <DependentUpon>guestbook.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotPoint\DetailKom.aspx.resx">
+      <DependentUpon>DetailKom.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotPoint\hotpoint.aspx.resx">
+      <DependentUpon>hotpoint.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.aspx.resx">
+      <DependentUpon>index.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InOut\InOut.aspx.resx">
+      <DependentUpon>InOut.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InOut\lastout.aspx.resx">
+      <DependentUpon>lastout.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InOut\viewresult.aspx.resx">
+      <DependentUpon>viewresult.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\List.aspx.resx">
+      <DependentUpon>List.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List\viewlist.aspx.resx">
+      <DependentUpon>viewlist.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.aspx.resx">
+      <DependentUpon>login.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moving\moving.aspx.resx">
+      <DependentUpon>moving.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mspd\mspd_main.aspx.resx">
+      <DependentUpon>mspd_main.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nekompl\nekompl.aspx.resx">
+      <DependentUpon>nekompl.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nekompl\nek_sluz.aspx.resx">
+      <DependentUpon>nek_sluz.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nekompl\nek_svod.aspx.resx">
+      <DependentUpon>nek_svod.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nekompl\vak_detail.aspx.resx">
+      <DependentUpon>vak_detail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Normatives\metody.aspx.resx">
+      <DependentUpon>metody.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Normatives\normatives.aspx.resx">
+      <DependentUpon>normatives.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quality\Education.aspx.resx">
+      <DependentUpon>Education.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quality\Quality.aspx.resx">
+      <DependentUpon>Quality.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raschet\pensia.aspx.resx">
+      <DependentUpon>pensia.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raschet\raschet.aspx.resx">
+      <DependentUpon>raschet.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search\search.aspx.resx">
+      <DependentUpon>search.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Struct.asmx.resx">
+      <DependentUpon>Struct.asmx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Structure\orgstr.aspx.resx">
+      <DependentUpon>orgstr.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Structure\viewstr.aspx.resx">
+      <DependentUpon>viewstr.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToAdmin\toadmin.aspx.resx">
+      <DependentUpon>toadmin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vakans\anketa.aspx.resx">
+      <DependentUpon>anketa.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vakans\HotVak.aspx.resx">
+      <DependentUpon>HotVak.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vakans\svodTable.aspx.resx">
+      <DependentUpon>svodTable.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vakans\vakansy.aspx.resx">
+      <DependentUpon>vakansy.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vakans\viewresult.aspx.resx">
+      <DependentUpon>viewresult.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vakans\v_result.aspx.resx">
+      <DependentUpon>v_result.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NZPolice\" />
+    <Folder Include="ReRegistration\" />
+    <Folder Include="Styles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49796/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

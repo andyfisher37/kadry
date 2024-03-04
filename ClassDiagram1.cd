@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UK.about" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAgAAACAAAAEAQAAAAAAAIAAAA=</HashCode>
+      <FileName>About\about.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.AdditionalServices" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEkD8gAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>AdditionalServices.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.AddService" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAE8D8kAAgCAAAAQAQAAAAAAAIAAAA=</HashCode>
+      <FileName>AddService.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.DataProvider" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABAAAIABAgAAAAAAAAAABAQAAAAAABAAA=</HashCode>
+      <FileName>DataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.denied_expl" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAEAAAAgRAACAQAAIAQgAQAAAAIAAAA=</HashCode>
+      <FileName>denied_expl.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.DetailList" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAEAgAAAAAAAgBAACAAAAAAQAAAAAAAMAAAA=</HashCode>
+      <FileName>DetailList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.DetailPage" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQsDAANECAChgTAgAQowROADRwjEAnQkFFlAAIcOACM=</HashCode>
+      <FileName>DetailPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.DetailPage_s" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQgCAgAMDACgAQAgBAIwAGACAwFAACQEhHhSAIMaAAI=</HashCode>
+      <FileName>DetailPage_s.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.DetailPage_txt" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABAGCAAACAAAAAgAAACAAAwIAQAAAAIAAYAAAA=</HashCode>
+      <FileName>DetailPage_txt.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Exchange" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEEACgAAACAAAAAAQAAAAAAAIAABA=</HashCode>
+      <FileName>Exchange.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Global" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAGAAAACAAAAAUCIBQAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.People" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgEAAAAACAAAAAEAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.SecureFields" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAQACCAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vars" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAACIAAAgIAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Fn" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.GlobalTransform" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCAgQAAQEAAAAAAEAAAAAAAEECAA=</HashCode>
+      <FileName>GlobalTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Index" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAASAIACAAAAAAAE8T+4AAISAEAAAJQAAAAQAAIgAAA=</HashCode>
+      <FileName>index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.istDataSet" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.IsxDelo" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAgAQgAAQAAAAAAgAAABAAQIRQAAgAQAAAigEIAAAA=</HashCode>
+      <FileName>IsxDelo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.login" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAgAIgCAAAAQAQEAAAAAAIAACA=</HashCode>
+      <FileName>login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.LongOperation" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LongOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.nationDataSet" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.net_stat" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgACAAAAAAAAAUAAAAgRAACCAAAQAQAAAAACAIAAAA=</HashCode>
+      <FileName>net_stat.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Objective" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQiAAACCAACAAQAAAgogRKACCBBUEFQUAkIAAAJAAgA=</HashCode>
+      <FileName>Objective.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ObjectiveWD" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>ObjectiveWD.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.PassDataSet" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQFgIAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.PhotoList" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAEEAAgQAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>PhotoList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.podrDataSet" Collapsed="true">
+    <Position X="19.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAwAAAAJABAIAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.resDataSet" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAABAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.search" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gZAAAgxAQmQgAQBBJAZFRMUajUCkwKYkgJQQykMgQCI=</HashCode>
+      <FileName>Search\search.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.sluzDataSet" Collapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.slvDataSet" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.spr1DataSet" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Spravka" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAwAAAAAAAAAAAEAAQAoBAwCgAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Spravka.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Spravka_stag" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggoBEAAAAAAIAAgAAQAAJAAAoAQAAQAAAAoAAAIAAAA=</HashCode>
+      <FileName>Spravka_stag.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Spravka2" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggwAAAAAAAAQAAEAAQAoJAACgAAAAAwAAAAAAAIAAAA=</HashCode>
+      <FileName>Spravka2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.sprDataSet" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Stag" Collapsed="true">
+    <Position X="19.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAIAQAAAAEEAEAAAIAAAA=</HashCode>
+      <FileName>Stag.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.TableLgottime" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAACAAAgAAAAAAAZAAAIAAAAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>TableLgottime.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.tmpDataSet" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.usersDataSet" Collapsed="true">
+    <Position X="18" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAwAAgAJABAAAQAAABAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Uvedom" Collapsed="true">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQABAAAAAAAAAAAAAAAgAAIACgAAACCAAAACAAIAAEg=</HashCode>
+      <FileName>Uvedom.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.UvedomReport" Collapsed="true">
+    <Position X="23.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAEAEAAAgQBkAIAAAYAAAEAAAAAIAAAA=</HashCode>
+      <FileName>UvedomReport.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.UvedomVN" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAgAAIACAAAACAAAAACAAIAAEg=</HashCode>
+      <FileName>UvedomVN.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.UVGive" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACAAAAAAEAAAAABgAIACAYAAAAAAAAAIAAgA=</HashCode>
+      <FileName>UVGive.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.UVparam" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAIAAIAAEgAAAABgIIAAAQAAgAAAIAAIEgkA=</HashCode>
+      <FileName>UVparam.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakansy" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIgAAggAAiAAACAEFAAkVIASEAAgAD0kAAAAAAKAAgA=</HashCode>
+      <FileName>Vakans\vakansy.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.viewDataSet" Collapsed="true">
+    <Position X="23.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ViewIsx" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAIAAgACAAAAIBBBAAIAAIACQAJAAAA=</HashCode>
+      <FileName>ViewIsx.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.viewphoto" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAAABQAAAAAAAIAAAA=</HashCode>
+      <FileName>viewphoto.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vysluga" Collapsed="true">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAoCAAAAAIAABAEAEBAEBoACAAAAAAQAAgAQEIIAAoA=</HashCode>
+      <FileName>Vysluga.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.WordExcel" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WordExcel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.About.sostav" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAgAAAAAAAAAAAAAgBAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>About\sostav.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.About.ukDataSet" Collapsed="true">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAwAAAAJABAIAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.About.viewukpeople" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>About\viewukpeople.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Admin.Admin" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAEAAADggIAoEAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>Admin\Admin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.AddAttestation" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCwAMAYAkMAAAAEIAAAABAgCAAACBAQAAAMAgBIAggA=</HashCode>
+      <FileName>Attestation\AddAttestation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.Attestation" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAEgBAAEAAAQEAAAAgBAQSAABEAIQAgAQACAIAQAA=</HashCode>
+      <FileName>Attestation\Attestation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.DeleteAttestation" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCwAMAIAEIgAAAEIAAAgBAgGAAACBAQAAAMEgBIAggA=</HashCode>
+      <FileName>Attestation\DeleteAttestation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.EditAttestation" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCwAMAYAkMAAAAEIAAAABAgCEAACBAQAAAMUgBIAggA=</HashCode>
+      <FileName>Attestation\EditAttestation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.MainAttestation" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCwAMgYAkAhEAQkIBEAgBQoGEAAGAQQACAGUgBICwiA=</HashCode>
+      <FileName>Attestation\MainAttestation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.persDataSet" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.slv_attDataSet" Collapsed="true">
+    <Position X="23.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Attestation.viewDataSet" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Blanks.blanks" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAEEAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Blanks\blanks.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.BornToday.borntoday" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAgAAGgADAAFAAgAABAQiAAAAAAQAAAAAAAKAAUA=</HashCode>
+      <FileName>BornToday\borntoday.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Contracts.Contract" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAEAAUBAAQAAAAAACBwAIIAEYBgQAAAAAAZIAgA=</HashCode>
+      <FileName>Contracts\Contract.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Contracts.ContractView" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAAIAAAAAAAJAAAAIAEAAACAAAgACCYAAAA=</HashCode>
+      <FileName>Contracts\ContractView.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.BulletPlan" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAEAEEAAAQAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Control\bulletplan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.cert_control" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAkAAgAAAEAAAAAAAAAABAAi6AAAEAQAABgAACIAAAA=</HashCode>
+      <FileName>Control\cert_control.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.certDataSet" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.ctrlDataSet" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.moving_control" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mEAAACAAMAAAAAABAAQEBEBwIAAAAAAAABABAEIAAAA=</HashCode>
+      <FileName>Control\moving_control.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.moving_view" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAACAAAAAAAAAAAQAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Control\moving_view.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.nakDataSet" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.pfile_control" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAEAAAAEAAAAgRDACAAAAMAwAAAAAQAIAAAA=</HashCode>
+      <FileName>Control\pfile_control.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.pfileDataSet" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.sokr_control" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAgAAAEAQAAFEEAAgBAoSIAAAQAQAAAAgAAIAAAA=</HashCode>
+      <FileName>Control\sokr_control.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.sokrDataSet" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAABAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.UvedomControl" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAAAAAAEAAAkAAAgYAAEAAAgABgBAAIAAAA=</HashCode>
+      <FileName>Control\UvedomControl.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Control.zvan_control" Collapsed="true">
+    <Position X="5.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACIAwgAAEAgAAEBgAAkRHgSAAAAcAwAIREAAAIAAAA=</HashCode>
+      <FileName>Control\zvan_control.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Corruption.CorruptBlank" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAEA=</HashCode>
+      <FileName>Corruption\CorruptBlank.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.DurationCalculatorApp.DateDifference" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAEAAAAAAAAAAQAIAAEUAEAAAAAAAA=</HashCode>
+      <FileName>DateDifference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Declaration.Declaration" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEhBAAAAAAQAAAACAEAgQIAIAQACQAAAgAAIAQwA=</HashCode>
+      <FileName>Declaration\Declaration.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Declaration.EditDecl" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Declaration\EditDecl.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.BadPoo" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAEAAAAgRAACAAAAAAQAAAAAAEIAAAA=</HashCode>
+      <FileName>Discipline\BadPoo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.DetailNak" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgkAAmAAAAEAAAAgBAACAAAAAAUgAAAAAAAAAAA=</HashCode>
+      <FileName>Discipline\DetailNak.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.DetailPoo" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgEAAmAAAAEAAABgBAACAAAAABQgEAAAAAAAAAA=</HashCode>
+      <FileName>Discipline\DetailPoo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.discipline" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFAIAAgACEAgAAEHGAAGREDyAAQEACQAEBgABAIIBAg=</HashCode>
+      <FileName>Discipline\discipline.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.nak_list" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAEAAAAAAEEAAgAAAGAAAAAAQAAQAAAAMAAAI=</HashCode>
+      <FileName>Discipline\nak_list.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.nakazDataSet" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.pooDataSet" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.stat_pdr_DataSet" Collapsed="true">
+    <Position X="23.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAwAAAAJABAAgQABAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Discipline.stat_sl_DataSet" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAwAAQAJABAAAYAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Documentum.docDataSet" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAwAgAAJABAAAQAAAAggCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Documentum.Documentum" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAgAEAAEABAEElMgEBgQCAAAAAAQDAGAAAEIAAIg=</HashCode>
+      <FileName>Documentum\Documentum.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Documentum.dolgi" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAgQAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Documentum\dolgi.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Documentum.Prikaz" Collapsed="true">
+    <Position X="23.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAAAAAAAAAAEgEBgAAIAAAAAAAAAAACAIAAAA=</HashCode>
+      <FileName>Documentum\Prikaz.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Documentum.slvdocDataSet" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAwAgAAJABAAAQAAAAggCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Education.education" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Education\Education.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.GoToPolice.PersAttestationForm" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BNAAQEAACAAAIAQIAIAAhAgkIAEgABAAAIABBAIAAgA=</HashCode>
+      <FileName>GoToPolice\PersAttestationForm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.GoToPolice.Report" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YQAAAAAACAEZAAAAAQAAAACUYDyGAwACJQxDAAJEEMY=</HashCode>
+      <FileName>GoToPolice\Report.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.HotPoint.DetailKom" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAgAAAAAAAAQAAAAgBAACEEAAAQQAAAAAAAIAAAA=</HashCode>
+      <FileName>HotPoint\DetailKom.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.HotPoint.DetailKomDataSet" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.HotPoint.hotpoint" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gMAAAggACAAAAgBAAAAkRAAygAAAACQAAAAAAAIABAA=</HashCode>
+      <FileName>HotPoint\hotpoint.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.HotPoint.Spravka" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AogAAAAACAAAAAAHAIAoAAAAAAAAACAIAAABAAIAAgA=</HashCode>
+      <FileName>HotPoint\Spravka.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.InOut.InOut" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAEEgEECIAACAAFBYEBAASAAAAACQAAAAAAEICAAA=</HashCode>
+      <FileName>InOut\InOut.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.InOut.lastout" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACIAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>InOut\lastout.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Viewresult.Viewresult" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAAAAAAAAgQAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>InOut\viewresult.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Kachestv.kachestv" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEEAAAAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Kachestv\kachestv.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Kachestv.listDataSet" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Kachestv.obrDataSet" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEgBBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Obrazov.obrazov" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQAAEggAAABAIAEEEAAkRAASAAAAQCQQAAAAogIAAAE=</HashCode>
+      <FileName>Kachestv\obrazov.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.List.List" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAFAAAAgBAACgABAAAQAAgAAACIAAAA=</HashCode>
+      <FileName>List\List.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.List.viewDataSet" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.List.viewlist" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAAAAAAAAgQAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>List\viewlist.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Moving.moving" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mEAAAAAAAAAAAAEAAAAABAAyAAAAACQAAAAAAEIAAAg=</HashCode>
+      <FileName>Moving\moving.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Mspd.mspd_main" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAAAAFAgICgAIACgAgAYAQAAAAAQEYAAAA=</HashCode>
+      <FileName>Mspd\mspd_main.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.data" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nekompl\data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.nek_sluz" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAGAABAAEAAAAgRAACAAAAAAQAAAAAABIIBAA=</HashCode>
+      <FileName>Nekompl\nek_sluz.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.nek_svod" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAggAAgAGAABAAEAAAAgRAACACAIAAQCAAACABIAEAA=</HashCode>
+      <FileName>Nekompl\nek_svod.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.nekompl" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEgACAIBiAgAEAIEEgRQECcABAA4UAiBgAgAoBAAU=</HashCode>
+      <FileName>Nekompl\nekompl.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.podchDataSet" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.podrDataSet" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.sluDataSet" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.vak_detail" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAEAAAAAAIAAEAAAAgRAACAAAAAAUAAACAAAIAAAA=</HashCode>
+      <FileName>Nekompl\vak_detail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Nekompl.vakDataSet" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Normatives.metody" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Normatives\metody.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Normatives.normatives" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Normatives\normatives.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Normatives.searcher" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAAAAAAAAACAAAAAAQAAAAAAAIAEAA=</HashCode>
+      <FileName>Normatives\searcher.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Normatives.WebSearchDataSet" Collapsed="true">
+    <Position X="23.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ProfPod.EditFirstEducation" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAQAAAIAAAAAAAAAAAAAIAAEA=</HashCode>
+      <FileName>ProfPod\EditFirstEducation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ProfPod.first_education" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAAAAAAAAACIAAAICQAAAAAAoAAAAIAAAA=</HashCode>
+      <FileName>ProfPod\first_education.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ProfPod.firsted_control" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEggAQAAAAAAAAEAAAAABAAgIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ProfPod\firsted_control.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ProfPod.sbp_stat" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAEAAAAAAAAAgACAAAgKAIAAAAAAAAAAEIAAAA=</HashCode>
+      <FileName>ProfPod\sbp_stat.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Raschet.pensia" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggggAQAAAAAAAAEAAAAABAQCAAAAAAQBAAAAAAIAAAA=</HashCode>
+      <FileName>Raschet\pensia.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Raschet.raschet" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Raschet\raschet.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ReRegistration.regform" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAAEEEBAgBAQCAEAAAAQEAAAAAAIAAAA=</HashCode>
+      <FileName>ReRegistration\regform.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Reserv.Res_main" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAgAAAAAAAAAAAAEBAASIAAAAiQABBAAAAIAAIA=</HashCode>
+      <FileName>Reserv\res_main.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Search.dolzDataSet" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Search.TextSearch" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAghAAEAAAQAAAAAkRAQSAEAEgCQAgAQACgMAQAA=</HashCode>
+      <FileName>Search\TextSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Security.secureDataSet" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAACAJABAAAQAAAAAgCQBkAAAAAACEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Security.Security" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgARBQAACIAAAAAAAQAIAIBAIAAAACAAgBAAAACAEo=</HashCode>
+      <FileName>Security\Security.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Statist.OperativeGRUOVD" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEEAAgAAAKAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Statist\OperativeGRUOVD.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Statist.OperSvodka" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Statist\OperSvodka.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Statist.stat_form_select" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAEAAgAAACAAAAAAQAAAQACAIAAAA=</HashCode>
+      <FileName>Statist\stat_form_select.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Statist.viewresult" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAgQAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Statist\viewresult.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Structure.orgstr" Collapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAAAgCAAAgCAABAAQsRMQSAAAkCCQEABAAEAIAAAA=</HashCode>
+      <FileName>Structure\orgstr.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Structure.strDataSet" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Structure.structure" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Structure\structure.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Structure.viewstr" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAACCiAAAAAAAAAgQAACADCAAAQhAAAAQAIAAgA=</HashCode>
+      <FileName>Structure\viewstr.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.ToAdmin.toadmin" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAEGIAgBAgCAAAIQAQAAAAACEIAAAA=</HashCode>
+      <FileName>ToAdmin\toadmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vacations.edit_uvedom_form" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAEAAAAAIAACQ=</HashCode>
+      <FileName>Vacations\edit_uvedom_form.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vacations.vac_uvedom" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAIAAAQAhAIAIAAAABAAAAAAYAAAQ=</HashCode>
+      <FileName>Vacations\vac_uvedom.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.anketa" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oACAQIAAAEAEAAkAAAAgBCQiAAAAAUWAAAACAAIAAAQ=</HashCode>
+      <FileName>Vakans\anketa.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.HotVak" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAAAAAEAAAAgBAACAAAAAAQCAAAAAAIAAAA=</HashCode>
+      <FileName>Vakans\HotVak.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.hotvakDataSet" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.svodTable" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgAAGAAAAAAAAAAgAAACIAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Vakans\svodTable.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.svodvakDataSet" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.v_result" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAEAAAAAgAAACAABwAAUAAAAAAAIAAAA=</HashCode>
+      <FileName>Vakans\v_result.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.vakDataSet" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAABAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Vakans.viewresult" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAACAAAAAAAAAAgQCADAAAAAAQAAAAAIAIEAAA=</HashCode>
+      <FileName>Vakans\viewresult.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.WorkBook.WebForm1" Collapsed="true">
+    <Position X="19.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgEAIAAAAAABAIEEQAAAAAAIAAAAAAAAYAAAAMAAAA=</HashCode>
+      <FileName>WorkBook\main.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.WorkBook.WebForm2" Collapsed="true">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>WorkBook\WebForm2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Zone.main" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Zone\main.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Zone.ovdDataSet" Collapsed="true">
+    <Position X="23.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQhgAAAAAAAUABRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Zone.view_ovd" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAgAAACAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Zone\view_ovd.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UK.Zone.viewzone" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAgACAAAABAAIAAgBAACAEABAAQAAAAEAAIAAAA=</HashCode>
+      <FileName>Zone\viewzone.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.UI.Page" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="UK.OtherWork" Collapsed="true">
+    <Position X="9.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.SpecRank" Collapsed="true">
+    <Position X="12.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABCAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.SpecWork" Collapsed="true">
+    <Position X="14.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgABAAAlAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.Komand" Collapsed="true">
+    <Position X="5.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAECAAAAAAEAAAAAAAAAAIAAAAAAACAABAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.Nakazan" Collapsed="true">
+    <Position X="7.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAEABAAAAAAAAABAAACAAAAAAABAAAAAABAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.Poo" Collapsed="true">
+    <Position X="11" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAFAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.Details" Collapsed="true">
+    <Position X="0.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggBCgCAAIAAAAAIAAAUAAAgACAACAAQAAIAgAAAASA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.DurationCalculatorApp.TPeriod" Collapsed="true">
+    <Position X="16.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAAAAAAAAAAAAAAQAQAAAAEAgAoEABAQAA=</HashCode>
+      <FileName>DateDifference.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.Viewresult.InStat1" Collapsed="true">
+    <Position X="2.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>InOut\viewresult.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UK.Viewresult.InStat2" Collapsed="true">
+    <Position X="4" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAGAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>InOut\viewresult.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="persDataSet" targetNamespace="http://www.tempuri.org/persDataSet.xsd" xmlns:mstns="http://www.tempuri.org/attDataSet.xsd" xmlns="http://www.tempuri.org/attDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="persDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+              <xs:element name="IMYA" type="xs:string" minOccurs="0" />
+              <xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_ROZD" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="VOIN_ZVAN" type="xs:string" minOccurs="0" />
+              <xs:element name="PODRAZDEL" type="xs:string" minOccurs="0" />
+              <xs:element name="NAM_OF_SLU" type="xs:string" minOccurs="0" />
+              <xs:element name="NAM_OF_DOL" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_PRSV" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATA_POST" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATA_VDOLZ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="VREMI_V_SL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NOMLICHDEL" type="xs:double" minOccurs="0" />
+              <xs:element name="LICH_NOM_1" type="xs:string" minOccurs="0" />
+              <xs:element name="LICH_NOM_2" type="xs:string" minOccurs="0" />
+              <xs:element name="N_PR_ZVAN1" type="xs:string" minOccurs="0" />
+              <xs:element name="DT_PR_DOLZ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATA_PR_ZV" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="N_PR_VDOLZ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

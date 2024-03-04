@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<XML type="text/xml">
+  <root>
+    <a0 html="Кодексы" img="Folder.gif" exp="True" url="">
+      <a0_0 html="" img="page.gif" exp="True" url="" />
+      <a0_1 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+      <a0_2 html="" img="page.gif" exp="True" url="" />
+    </a0>
+    <a1 html="Федеральные законы" img="book.gif" exp="False" url="">
+      <a1_0 html="&lt;a href='http://www.memobook.com' class=ob_a2&gt;MemoBook.com&lt;/a&gt;" img="pag.gif" exp="True" url="" />
+    </a1>
+  </root>
+</XML>

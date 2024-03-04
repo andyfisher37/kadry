@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="vakDataSet" targetNamespace="http://www.tempuri.org/vakDataSet.xsd" xmlns:mstns="http://www.tempuri.org/vakDataSet.xsd" xmlns="http://www.tempuri.org/vakDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="vakDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAM_OF_DOL" type="xs:string" minOccurs="0" />
+              <xs:element name="NAM_OF_SLU" type="xs:string" minOccurs="0" />
+              <xs:element name="upravlenie" type="xs:string" minOccurs="0" />
+              <xs:element name="otdel" type="xs:string" minOccurs="0" />
+              <xs:element name="podotdel" type="xs:string" minOccurs="0" />
+              <xs:element name="otdelenie" type="xs:string" minOccurs="0" />
+              <xs:element name="grup" type="xs:string" minOccurs="0" />
+              <xs:element name="TEXT" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_VAK" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATA_SOKR" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NOMPRSOKDO" type="xs:string" minOccurs="0" />
+              <xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+              <xs:element name="IMYA" type="xs:string" minOccurs="0" />
+              <xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+              <xs:element name="podr" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

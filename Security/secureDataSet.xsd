@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="secureDataSet" targetNamespace="http://www.tempuri.org/secureDataSet.xsd" xmlns:mstns="http://www.tempuri.org/secureDataSet.xsd" xmlns="http://www.tempuri.org/secureDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="secureDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU" msprop:Generator_UserDSName="secureDataSet" msprop:Generator_DataSetName="secureDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="getSecureRole" msprop:Generator_UserTableName="getSecureRole" msprop:Generator_RowDeletedName="getSecureRoleRowDeleted" msprop:Generator_TableClassName="getSecureRoleDataTable" msprop:Generator_RowChangedName="getSecureRoleRowChanged" msprop:Generator_RowClassName="getSecureRoleRow" msprop:Generator_RowChangingName="getSecureRoleRowChanging" msprop:Generator_RowEvArgName="getSecureRoleRowChangeEvent" msprop:Generator_RowEvHandlerName="getSecureRoleRowChangeEventHandler" msprop:Generator_TablePropName="getSecureRole" msprop:Generator_TableVarName="tablegetSecureRole" msprop:Generator_RowDeletingName="getSecureRoleRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="s_Pages" msprop:Generator_UserColumnName="s_Pages" msprop:Generator_ColumnPropNameInRow="s_Pages" msprop:Generator_ColumnVarNameInTable="columns_Pages" msprop:Generator_ColumnPropNameInTable="s_PagesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="s_Podrazd" msprop:Generator_UserColumnName="s_Podrazd" msprop:Generator_ColumnPropNameInRow="s_Podrazd" msprop:Generator_ColumnVarNameInTable="columns_Podrazd" msprop:Generator_ColumnPropNameInTable="s_PodrazdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="s_Podr" msprop:Generator_UserColumnName="s_Podr" msprop:Generator_ColumnPropNameInRow="s_Podr" msprop:Generator_ColumnVarNameInTable="columns_Podr" msprop:Generator_ColumnPropNameInTable="s_PodrColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="s_Sluzba" msprop:Generator_UserColumnName="s_Sluzba" msprop:Generator_ColumnPropNameInRow="s_Sluzba" msprop:Generator_ColumnVarNameInTable="columns_Sluzba" msprop:Generator_ColumnPropNameInTable="s_SluzbaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="s_Dolznost" msprop:Generator_UserColumnName="s_Dolznost" msprop:Generator_ColumnPropNameInRow="s_Dolznost" msprop:Generator_ColumnVarNameInTable="columns_Dolznost" msprop:Generator_ColumnPropNameInTable="s_DolznostColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="s_keys" msprop:Generator_UserColumnName="s_keys" msprop:Generator_ColumnPropNameInRow="s_keys" msprop:Generator_ColumnVarNameInTable="columns_keys" msprop:Generator_ColumnPropNameInTable="s_keysColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContextMenu" msprop:Generator_UserColumnName="ContextMenu" msprop:Generator_ColumnPropNameInRow="ContextMenu" msprop:Generator_ColumnVarNameInTable="columns_contextmenu" msprop:Generator_ColumnPropNameInTable="ContextMenuColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

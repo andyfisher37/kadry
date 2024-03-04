@@ -1,0 +1,151 @@
+/* for div where treeview is placed */
+div.ob_tree	{
+	background-color: #fff; 
+	overflow:auto;
+}
+
+/* for node text */
+td.ob_t2 {
+	color:#222;	FONT:12px 'Segoe UI', Tahoma; 
+vertical-align:middle; 
+	border:none; 
+	background-color:transparent;
+	padding:3px;
+}
+
+/* for node text highlighted/selected */
+.ob_t3 {
+	color:#000;	FONT:12px 'Segoe UI', Tahoma; 
+	vertical-align:middle; 
+	line-height:19px;
+	height:19px;
+	background:url(bg.gif) left;
+	border-left:1px solid #99defd;
+	border-right:1px solid #99defd;
+	padding: 0 4px;
+	
+}
+.bg_r {
+	background:url(bg_r.gif) right no-repeat ;
+}
+/* for node when edited */
+input.ob_t3		{
+FONT:12px 'Segoe UI', Tahoma; 
+}
+
+/* links in all nodes */
+td.ob_t2 A		{	FONT:12px 'Segoe UI', Tahoma; 
+}
+
+/* link in selected node */
+td.ob_t3 A		{
+	color: crimson;
+}
+
+/* for icons */
+td.ob_t4 {
+	vertical-align:middle;}
+
+/* for icons */
+div.ob_d4 {
+	width: 16px;
+FONT:12px 'Segoe UI', Tahoma; 
+	line-height:19px;
+	height:19px;
+}
+
+/* for vertical lines (indent) */
+div.ob_d5 {
+	width:0px; 
+	vertical-align:middle;
+FONT:12px 'Segoe UI', Tahoma; 
+}
+
+td.ob_t5v
+{
+	background-image: url(vertical.gif);
+	width:5px;
+}
+
+/* for plus-minus images */
+td.ob_t6 {
+	width:10px;
+	vertical-align:middle;
+}
+
+/* for plus-minus images */
+td.ob_t6v		{
+	width:10px;
+	vertical-align:middle;	
+	background-image: url(vertical.gif);
+}
+
+/* for plus-minus images of the root node*/
+td.ob_t8 {
+	width:16px;
+	vertical-align:middle;	
+}
+
+/* for message "Loading ..." */
+td.ob_t7 {	FONT:12px 'Segoe UI', Tahoma; 
+	background-color:#ffffff; 
+	border:1px solid #666666; 
+	color:#666666; 
+	width:80px; 
+	text-align:center; 
+	padding-left:20px;
+}
+	
+/* for links */
+A.ob_a2	{	FONT:12px 'Segoe UI', Tahoma; 
+COLOR: #0000cd;	
+} 
+
+.ob_t2c 
+{		
+	border-collapse: separate;	
+	border-spacing: 0px;
+}
+
+.ob_t2b 
+{	
+	border-collapse: separate;	
+	border-spacing: 0px;
+}
+
+.ob_t2g
+{	
+	border-collapse: separate;	
+	border-spacing: 0px;
+}
+.ob_t2g td
+{
+	padding:0px;	
+}
+
+.ob_t2b td
+{
+	padding:0px;
+}
+
+.ob_t2c td
+{
+	padding:0px;
+}
+
+td {
+}
+
+div.ob_tree div {
+	padding:0 2px;
+}
+.bg_l {
+	background:url(bg_l.gif) no-repeat left;
+	width:3px;
+	float:left;
+}
+.bg_r {
+	background:url(bg_r.gif) no-repeat left;
+	width:3px;
+	float:left;
+}

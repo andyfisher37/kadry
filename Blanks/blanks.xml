@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<TREENODES>
+	<TREENODE Text="Исходящие">
+		<TREENODE Text="Исходящий УРЛС УВД" NodeData="/Store/blank_001.zip"/>
+	</TREENODE>
+	<TREENODE Text="Приказы, поправки, распоряжения">
+        <TREENODE Text="Образец оформления приказа" NodeData="/Store/blank_025.zip"/>	
+		<TREENODE Text="Приказ УВД" NodeData="/Store/blank_002.zip"/>
+		<TREENODE Text="Поправка к приказу УВД" NodeData="/Store/blank_003.zip"/>
+		<TREENODE Text="Распоряжение начальника УРЛС" NodeData="/Store/blank_004.zip"/>
+		<TREENODE Text="Выписка из приказа УВД" NodeData="/Store/blank_008.zip"/>
+	</TREENODE>
+	<TREENODE Text="Рапорта, заявления, заявки...">
+		<TREENODE Text="Рапорт на отпуск" NodeData="/Store/blank_005.zip"/>
+		<TREENODE Text="Отпускное удостоверение" NodeData="/Store/blank_014.zip"/>
+		<TREENODE Text="Заявление о приеме на службу" NodeData="/Store/blank_013.zip"/>
+		<TREENODE Text="Контракт (на службу в ОВД)" NodeData="/Store/blank_023.zip"/>
+		<TREENODE Text="Направление на ВВК" NodeData="/Store/blank_024.zip"/>
+		<TREENODE Text="Уведомление об увольнении" NodeData="/Store/blank_020.zip"/>
+	</TREENODE>
+	<TREENODE Text="Аттестации">
+		<TREENODE Text="Бланк аттестации" NodeData="/Store/blank_009.zip"/>
+		<TREENODE Text="Схема аттестации" NodeData="/Store/blank_010.zip"/>
+		<TREENODE Text="Протокол аттестационной комиссии" NodeData="/Store/blank_016.zip"/>
+		
+	</TREENODE>
+	<TREENODE Text="Расчеты">
+			<TREENODE Text="На пенсию" NodeData="/Store/blank_006.zip"/>
+	</TREENODE>
+	<TREENODE Text="Представления">
+			<TREENODE Text="На звание" NodeData="/Store/blank_011.zip"/>
+			<TREENODE Text="Решение о задержке звания" NodeData="/Store/blank_017.zip"/>
+			<TREENODE Text="К увольнению из ОВД" NodeData="/Store/blank_015.zip"/>
+	</TREENODE>
+	<TREENODE Text="Наградные">
+			<TREENODE Text="Наградной лист (чистый)" NodeData="/Store/blank_007.zip"/>
+	</TREENODE>
+	<TREENODE Text="Списки, журналы...">
+			<TREENODE Text="Список сотрудиков зачисляемых в резерв..." NodeData="/Store/blank_018.zip"/>
+			<TREENODE Text="Список сотрудиков оставляемых на службе сверх срока" NodeData="/Store/blank_019.zip"/>
+			<TREENODE Text="Журнал учета кандидатов на службу" NodeData="/Store/blank_021.zip"/>
+			<TREENODE Text="Журнал учета посещений занятий по СБП" NodeData="/Store/blank_022.zip"/>
+	</TREENODE>
+	<TREENODE Text="Заключения">
+			<TREENODE Text="Заключение по итогам испытательного срока" NodeData="/Store/blank_012.zip"/>
+	</TREENODE>
+	<TREENODE Text="Договора...">
+			<TREENODE Text="Образец трудового договора с работником" NodeData="/Store/blank_026.zip"/>
+	</TREENODE>
+	<TREENODE Text="Справки"/>
+</TREENODES>
+	

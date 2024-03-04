@@ -1,0 +1,58 @@
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+		<meta content="Microsoft Visual Studio 7.0" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<link href="Styles.css" rel="stylesheet">
+	</HEAD>
+	<BODY background="/images/background.gif">
+		<script language="javascript">
+			var prev
+			function DoProgress ()
+			{
+				var cell
+				if ( null == prev )
+					prev = 0 ;
+					
+				cell = trid.cells ( prev )
+				cell.bgColor = trid.bgColor ;
+				prev = prev + 1 ;
+				if ( trid.cells.length == prev )
+					prev = 0 ;
+					
+				cell = trid.cells ( prev )
+				cell.bgColor = '#696969'
+			}
+			window.setInterval ( "DoProgress ()" , 100 ) ;
+		</script>
+		<table height="118" cellSpacing="0" cellPadding="0" width="216" border="0" style="WIDTH: 216px; HEIGHT: 118px">
+			<tr>
+				<td vAlign="middle" align="center"><BR>
+					<DIV id="theText" style="BORDER-RIGHT: darkgray 1px solid; BORDER-TOP: darkgray 1px solid; BORDER-LEFT: darkgray 1px solid; WIDTH: 89.92%; BORDER-BOTTOM: darkgray 1px solid; HEIGHT: 100px"
+						class="label2">
+						<br>
+						<center>
+							Идет выполнение запроса,<BR>
+							пожалуйста, подождите...
+						</center>
+						<BR>
+						<table id="tbid" style="WIDTH: 175px; HEIGHT: 24px" width="175" border="0" bgColor="blanchedalmond">
+							<tr id="trid" bgColor="#000000">
+								<td bgColor="gray"></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</table>
+					</DIV>
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>

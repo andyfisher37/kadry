@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="attDataSet" targetNamespace="http://www.tempuri.org/attDataSet.xsd" xmlns:mstns="http://www.tempuri.org/attDataSet.xsd" xmlns="http://www.tempuri.org/attDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="attDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P1" type="xs:string" minOccurs="0" />
+              <xs:element name="KEY_1" type="xs:double" minOccurs="0" />
+              <xs:element name="DATE_ATT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATE_NEXT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="OSNOVANIE" type="xs:short" minOccurs="0" />
+              <xs:element name="RESULTAT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="RECOMEND" type="xs:string" minOccurs="0" />
+              <xs:element name="PRIMECHAN" type="xs:string" minOccurs="0" />
+              <xs:element name="PROTOC_NUM" type="xs:string" minOccurs="0" />
+              <xs:element name="PROTOC_DAT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DOC_OSNOV" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_NUMB" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DOC_OVD" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

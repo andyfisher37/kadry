@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="sluzDataSet" targetNamespace="http://www.tempuri.org/sluzDataSet.xsd" xmlns:mstns="http://www.tempuri.org/sluzDataSet.xsd"
+	xmlns="http://www.tempuri.org/sluzDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="sluzDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="KEY_1" type="xs:string" minOccurs="0" />
+							<xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+							<xs:element name="IMYA" type="xs:string" minOccurs="0" />
+							<xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+							<xs:element name="PHOTO" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

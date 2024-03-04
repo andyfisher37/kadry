@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="nakazDataSet" targetNamespace="http://www.tempuri.org/nakazDataSet.xsd" xmlns:mstns="http://www.tempuri.org/nakazDataSet.xsd"
+	xmlns="http://www.tempuri.org/nakazDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="nakazDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+							<xs:element name="IMYA" type="xs:string" minOccurs="0" />
+							<xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+							<xs:element name="PODRAZDEL" type="xs:string" minOccurs="0" />
+							<xs:element name="NAM_OF_SLU" type="xs:string" minOccurs="0" />
+							<xs:element name="NAM_OF_DOL" type="xs:string" minOccurs="0" />
+							<xs:element name="P1" type="xs:string" minOccurs="0" />
+							<xs:element name="DAT_NALOZ" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="P11" type="xs:string" minOccurs="0" />
+							<xs:element name="N_PRIK_NAL" type="xs:string" minOccurs="0" />
+							<xs:element name="SODERZANIE" type="xs:string" minOccurs="0" />
+							<xs:element name="DAT_SNIAT" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="KEY_1" type="xs:float" minOccurs="0" />
+							<xs:element name="DATA_POST" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

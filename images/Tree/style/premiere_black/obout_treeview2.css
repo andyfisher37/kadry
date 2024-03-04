@@ -1,0 +1,243 @@
+/* open selected node - Left*/
+.ob_t2c .ob_t3 div.onL {
+	float:left;
+	background-image:url('lighted_left.gif');
+	width:10px;
+	height:16px;
+}
+/* open selected node - Center */
+.ob_t2c .ob_t3 div.onC {
+	float:left;
+	background-image:url('lighted_center.gif');
+	height:16px;
+	/*color:#0c416f;*/
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+	overflow:hidden;
+	background-repeat:repeat-x;
+}
+/* open selected node - Right */
+.ob_t2c .ob_t3 div.onR {
+	float:left;
+	background-image:url('lighted_right.gif');
+	width:10px;
+	height:16px;
+}
+
+/* open unselected parent - Left*/
+.ob_t2c .ob_t2 div.onL {
+	float:left;
+	background-image:none;
+	width:0px;
+	height:16px;
+}
+/* open unselected parent - Center */
+.ob_t2c .ob_t2 div.onC {
+	float:left;
+	background-image:none;
+	height:16px;
+	/*color:#0c416f;*/
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+	overflow:hidden;
+	background-repeat:repeat-x;
+}
+/* open unselected parent - Right */
+.ob_t2c .ob_t2 div.onR {
+	float:left;
+	background-image:none;
+	width:0px;
+	height:16px;
+}
+
+/* open selected parent - Left*/
+.ob_t2b .ob_t3 div.onL {
+	float:left;
+	background-image:url('opened_left.gif');
+	width:10px;
+	height:16px;
+}
+/* open selected parent - Center */
+.ob_t2b .ob_t3 div.onC {
+	float:left;
+	background-image:url('opened_center.gif');
+	height:16px;
+	/*color:#0c416f;*/
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+	overflow:hidden;
+	background-repeat:repeat-x;
+}
+/* open selected parent - Right */
+.ob_t2b .ob_t3 div.onR {
+	float:left;
+	background-image:url('opened_right.gif');
+	width:10px;
+	height:16px;
+}
+
+/* open unselected parent - Left*/
+.ob_t2b .ob_t2 div.onL {
+	float:left;
+	background-image:url('closed_left.gif');
+	width:10px;
+	height:16px;
+}
+/* open unselected parent - Center */
+.ob_t2b .ob_t2 div.onC {
+	float:left;
+	background-image:url('closed_center.gif');
+	height:16px;
+	/*color:#0c416f;*/
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+	overflow:hidden;
+	background-repeat:repeat-x;
+}
+/* open unselected parent - Right */
+.ob_t2b .ob_t2 div.onR {
+	float:left;
+	background-image:url('closed_right.gif');
+	width:10px;
+	height:16px;
+}
+
+/* for div where treeview is placed */
+div.ob_tree		{
+	overflow:auto;
+}
+
+/* for node text */
+td.ob_t2	{
+	font:11px Verdana;
+	color:#3e3e3e;
+	height:16px;
+	padding-top:1px;
+}
+
+/* for selected node text highlighted/selected */
+td.ob_t3		{
+	font:11px Verdana;
+	color:#000;
+	height:16px;
+	padding-top:1px;
+}
+
+/* for node when edited */
+input.ob_t3		{
+	font: 8pt Tahoma; 
+}
+
+/* links in all nodes */
+td.ob_t2 A		{
+	color: #3366cc;
+}
+
+/* link in selected node */
+td.ob_t3 A		{
+	color: crimson;
+}
+
+/* for icons */
+td.ob_t4	 	{
+	vertical-align:top;
+}
+
+/* for icons */
+div.ob_d4 		{
+	width: 19px;
+	font: 6pt Tahoma;
+}
+
+/* for children */
+td.ob_t5	{
+	width:100%;
+}
+
+/* for vertical lines (indent) */
+div.ob_d5		{
+	width:28px;
+	font: 5px Verdana;	
+}
+
+td.ob_t5v
+{
+	background-image: url(vertical.gif);
+}
+
+/* for plus-minus images */
+td.ob_t6		{
+	width:28px;
+	vertical-align:top;	
+}
+
+/* for plus-minus images */
+td.ob_t6v		{
+	width:16px;
+	vertical-align:top;	
+	background-image: url(vertical.gif);
+}
+
+
+/* for plus-minus images of the root node*/
+td.ob_t8{
+	width:28px;
+	vertical-align:top;		
+}
+
+/* for message "Loading ..." */
+td.ob_t7		{
+	FONT:8pt Tahoma;
+	background-color:#ffffff;
+	border:1px solid #666666; 
+	color:#666666;
+	width:80px;
+	text-align:center;
+	padding-left:20px;	
+}
+
+/* for links */
+A.ob_a2		{
+	FONT: 8pt Tahoma; 
+	COLOR: #0000cd; 
+	TEXT-DECORATION: none;
+}
+
+.ob_t2c 
+{		
+	border-collapse: separate;	
+	border-spacing: 0px;
+}
+
+.ob_t2b 
+{	
+	border-collapse: separate;	
+	border-spacing: 0px;
+}
+
+.ob_t2g
+{	
+	border-collapse: separate;	
+	border-spacing: 0px;
+	
+}
+.ob_t2g td
+{
+	padding:0px;	
+}
+
+.ob_t2b td
+{
+	padding:0px;
+}
+
+.ob_t2c td
+{
+	padding:0px;
+}
+		
+

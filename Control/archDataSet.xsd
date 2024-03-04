@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="archDataSet" targetNamespace="http://www.tempuri.org/archDataSet.xsd" xmlns:mstns="http://www.tempuri.org/archDataSet.xsd"
+	xmlns="http://www.tempuri.org/archDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="archDataSet" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ZVANIE" type="xs:short" minOccurs="0" />
+							<xs:element name="FAMILIYA" type="xs:string" minOccurs="0" />
+							<xs:element name="IMYA" type="xs:string" minOccurs="0" />
+							<xs:element name="OTCHECTVO" type="xs:string" minOccurs="0" />
+							<xs:element name="KEY_1" type="xs:double" minOccurs="0" />
+							<xs:element name="LICH_NOM_1" type="xs:string" minOccurs="0" />
+							<xs:element name="DATA_UVOL" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LICH_NOM_2" type="xs:string" minOccurs="0" />
+							<xs:element name="PODRAZDEL" type="xs:string" minOccurs="0" />
+							<xs:element name="NAM_OF_SLU" type="xs:string" minOccurs="0" />
+							<xs:element name="NAM_OF_DOL" type="xs:string" minOccurs="0" />
+							<xs:element name="VOIN_ZVAN" type="xs:string" minOccurs="0" />
+							<xs:element name="certificate" type="xs:string" minOccurs="0" />
+							<xs:element name="STATUS" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
